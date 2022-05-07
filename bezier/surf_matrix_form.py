@@ -1,9 +1,16 @@
 # https://scask.ru/a_book_mm3d.php
 # https://scask.ru/a_book_mm3d.php?id=109
 # https://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/AV0405/DONAVANIK/bezier.html
-# https://pages.mtu.edu/~shene/COURSES/cs3621/NOTES/surface/bezier-properties.html
 # https://stackoverflow.com/questions/34650830/bicubic-bezier-patch-trouble-with-understanding
 
+# -----------MTU
+# https://pages.mtu.edu/~shene/COURSES/cs3621/NOTES/surface/bezier-properties.html
+# https://pages.mtu.edu/~shene/COURSES/cs3621/NOTES/
+
+
+# https://dcain.etsin.upm.es/~leonardo/etema5.htm
+# https://www.gamedeveloper.com/programming/an-in-depth-look-at-bicubic-bezier-surfaces
+# http://www.cad.zju.edu.cn/home/zhx/GM/005/00-bcs2.pdf
 
 import time
 
@@ -50,8 +57,131 @@ def coon(l1, l2, l3, l4, params_u, params_v, ui, vi):
     return surf1 + surf2 - surf3
 
 
-def bern(i, d, t):
+def bern(d, i, t):
     return comb(d, i) * (t ** (d - i)) * (1 - t) ** i
+
+
+def bern_deriv1(d, i, t):
+    return bern(d, i, t) * (i - d * t) / (t * (1 - t))
+
+
+def bern_deriv2(d, i, t):
+    return bern(d, i, t) * ((1 - d * t) ** 2 - d * t ** 2 - i * (1 - 2 * t)) / (t ** 2 * (1 - t) ** 2)
+
+
+def surf_u_deriv1(cps: np.ndarray, u, v):
+    count_u, count_v = cps.shape[:2]
+    deg_u, deg_v = count_u - 1, count_v - 1
+
+    du1 = np.array([0, 0, 0], np.float32)
+    for i in range(deg_u):
+        for j in range(deg_v):
+            du1 += cps[i, j, :] * bern_deriv1(deg_u, i, u) * bern(deg_v, j, v)
+
+    return du1
+
+
+def surf_v_deriv1(cps: np.ndarray, u, v):
+    count_u, count_v = cps.shape[:2]
+    deg_u, deg_v = count_u - 1, count_v - 1
+
+    dv1 = np.array([0, 0, 0], np.float32)
+    for i in range(deg_u):
+        for j in range(deg_v):
+            dv1 += cps[i, j, :] * bern(deg_u, i, u) * bern_deriv1(deg_v, j, v)
+
+    return dv1
+
+
+def surf_uv_deriv1(cps: np.ndarray, u, v):
+    count_u, count_v = cps.shape[:2]
+    deg_u, deg_v = count_u - 1, count_v - 1
+
+    duv = np.array([0, 0, 0], np.float32)
+    for i in range(deg_u):
+        for j in range(deg_v):
+            duv += cps[i, j, :] * bern_deriv1(deg_u, i, u) * bern_deriv1(deg_v, j, v)
+
+    return duv
+
+
+def surf_u_deriv2(cps: np.ndarray, u, v):
+    count_u, count_v = cps.shape[:2]
+    deg_u, deg_v = count_u - 1, count_v - 1
+
+    du2 = np.array([0, 0, 0], np.float32)
+    for i in range(deg_u):
+        for j in range(deg_v):
+            du2 += cps[i, j, :] * bern_deriv2(deg_u, i, u) * bern(deg_v, j, v)
+
+    return du2
+
+
+def surf_v_deriv2(cps: np.ndarray, u, v):
+    count_u, count_v = cps.shape[:2]
+    deg_u, deg_v = count_u - 1, count_v - 1
+
+    dv2 = np.array([0, 0, 0], np.float32)
+    for i in range(deg_u):
+        for j in range(deg_v):
+            dv2 += cps[i, j, :] * bern(deg_u, i, u) * bern_deriv2(deg_v, j, v)
+
+    return dv2
+
+
+def surf_derivatives(cps: np.ndarray, u, v):
+    count_u, count_v = cps.shape[:2]
+    deg_u, deg_v = count_u - 1, count_v - 1
+
+    eps = .0001
+
+    if u == 0:
+        u = eps
+    if u == 1:
+        u = 1 - eps
+    if v == 0:
+        v = eps
+    if v == 1:
+        v = 1 - eps
+
+    du1 = np.array([0, 0, 0], np.float32)
+    dv1 = np.array([0, 0, 0], np.float32)
+    duv = np.array([0, 0, 0], np.float32)
+    du2 = np.array([0, 0, 0], np.float32)
+    dv2 = np.array([0, 0, 0], np.float32)
+
+    for i in range(deg_u):
+        for j in range(deg_v):
+            cp = cps[i, j, :]
+
+            bern_u = bern(deg_u, i, u)
+            bern_v = bern(deg_v, j, v)
+
+            bern_du1 = bern_deriv1(deg_u, i, u)
+            bern_dv1 = bern_deriv1(deg_v, j, v)
+
+            bern_du2 = bern_deriv2(deg_u, i, u)
+            bern_dv2 = bern_deriv2(deg_v, j, v)
+
+            du1 += cp * bern_du1 * bern_v
+            dv1 += cp * bern_u * bern_dv1
+
+            duv += cp * bern_du1 * bern_dv1
+
+            du2 += cp * bern_du2 * bern_v
+            dv2 += cp * bern_u * bern_dv2
+
+    return du1, dv1, duv, du2, dv2
+
+
+def gauss_curvature(du1, dv1, duv, du2, dv2):
+    norm = np.cross(du1, dv1)
+    norm_len = np.linalg.norm(norm)
+
+    A = norm.dot(du2)
+    B = norm.dot(duv)
+    C = norm.dot(dv2)
+    return (A * C - B) / (norm_len ** 4)
 
 
 def bsurface(poles, u, v):
@@ -73,14 +203,16 @@ def bsurface(poles, u, v):
     return co
 
 
-def bsurfaceM(cps: np.ndarray, resol=(16, 16)):
-    """
+mm1, mm2, cps_ = None, None, None
 
+
+def bsurfaceM(cps: np.ndarray, uv: np.ndarray, grid=True):
+    """
     :param cps: np.ndrray((U, V, 3))
     :param resol: np.ndrray((C, 2))
     :return:
     """
-    u, v = np.linspace(0, 1, resol[0]), np.linspace(0, 1, resol[1])
+    u, v = uv.T
 
     count_u, count_v, _ = cps.shape
     deg_u, deg_v = count_u - 1, count_v - 1
@@ -88,9 +220,8 @@ def bsurfaceM(cps: np.ndarray, resol=(16, 16)):
     u_vec = np.array([u ** i for i in range(count_u)])
     v_vec = np.array([v ** i for i in range(count_v)])
 
-
-    print("u: ", u.shape)
-    print("v: ", v.shape)
+    # print("u: ", u.shape)
+    # print("v: ", v.shape)
 
     BM_u, BM_v = BM[deg_u], BM[deg_v]
 
@@ -106,7 +237,27 @@ def bsurfaceM(cps: np.ndarray, resol=(16, 16)):
     y = m1.dot(py).dot(m2)
     z = m1.dot(pz).dot(m2)
 
-    return x, y, z
+    # global mm1, mm2, cps_
+    if grid:
+        return x, y, z
+    else:
+        return x[0, :], y[0, :], z[0, :]
+
+
+# https://scask.ru/a_book_mm3d.php?id=92
+
+# TODO
+def iso_curve(cps: np.ndarray, param=.5, is_u=True):
+    count_u, count_v = cps.shape[:2]
+    deg_u, deg_v = count_u - 1, count_v - 1
+    points = []
+
+    if is_u:
+        co = np.zeros(3, np.float32)
+        for j in range(count_v):
+            co += 0
+
+    return np.array(points, np.float32)
 
 
 poles5x3 = np.array([
@@ -126,16 +277,59 @@ poles5x8 = np.array([[[1.5, -0.8, 0.2], [1.5, -0.5, 0.3], [1.5, -0.3, 0.4], [1.5
 fig: Figure = plt.figure(figsize=(7, 7))
 ax: Axes3D = fig.add_subplot(111, projection='3d')
 
-# --------------
-px, py, pz = poles5x8.reshape(-1, 3).T
-ax.scatter(px, py, pz)
+# -------------- Surface
+resol = 32, 32
 
-resol = 16, 16
-x, y, z = bsurfaceM(poles5x8, resol=resol)
-ax.plot_wireframe(x, y, z, cmap=cm.gray, linewidth=.1, antialiased=False)
+u, v = np.linspace(0, 1, resol[0]), np.linspace(0, 1, resol[1])
+uv = np.stack([u, v], axis=1)
 
-in_uv = .5, .25
-out_co = bsurface(poles5x8, *in_uv)
-ax.scatter(*out_co)
+# st = time.time()
+x, y, z = bsurfaceM(poles5x8, uv, grid=True)
+# print("t1: ", time.time()-st)
+
+# ax.plot_wireframe(x, y, z, cmap=cm.gray, linewidth=.05, antialiased=False)
+
+# uv = np.linspace((0, 0), (0, 1), resol[0])
+
+# st = time.time()
+# for i in range(100):
+#     x, y, z = bsurfaceM(poles5x8, uv, grid=False)
+# print("t2: ", time.time()-st)
+
+# ax.scatter(x.ravel(), y.ravel(), z.ravel(), s=5)
+
+# -------------- Poles
+# px, py, pz = poles5x8.reshape(-1, 3).T
+# ax.scatter(px, py, pz, s=3)
+#
+# -------------- Point On Surface
+# uv = 0.2, .1
+for uu in np.linspace(0.1, .9, 16):
+    uv = uu, .2
+    in_uv = np.array([(uv)])
+    x, y, z = bsurfaceM(poles5x8, in_uv, grid=False)
+    ax.scatter(x, y, z)
+
+    # ----------------------DERIVATIVES
+    du1, dv1, duv, du2, dv2 = surf_derivatives(poles5x8, *uv)
+    surf_co = np.array([x[0], y[0], z[0]])
+
+    norm = np.cross(du1, dv1)
+    norm /= np.linalg.norm(norm)
+
+    lu1 = surf_co + du1 / np.linalg.norm(du1)
+    lv1 = surf_co + dv1 / np.linalg.norm(dv1)
+
+    lines1 = np.stack([surf_co, lu1, surf_co, lv1], axis=1)
+    ax.plot(*lines1, linewidth=.5)
+
+    # lu2 = surf_co + du2 / np.linalg.norm(du2)
+    # lv2 = surf_co + dv2 / np.linalg.norm(dv2)
+
+    # lines2 = np.stack([surf_co, lu2, surf_co, lv2], axis=1)
+    # ax.plot(*lines2, linewidth=.5)
+    gauss = gauss_curvature(du1, dv1, duv, du2, dv2)
+    norm_lines = np.stack([surf_co, surf_co + norm * gauss * 10], axis=1)
+    ax.plot(*norm_lines, linewidth=1)
 
 plt.show()
