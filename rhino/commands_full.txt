@@ -1,0 +1,2054 @@
+-_CheckInLicense
+-_CheckOutLicense
+-_ConnectSrf
+-_CullControlPolygon
+-_InsertEdge
+	-_InsertEdge _Type=_Loop
+	-_InsertEdge _Type=_Ring
+-_NamedCPlane
+	-_NamedCPlane _Select
+_Pause _Enter
+-_Options
+	-_Options _View _LinkedViewports _Enter _Enter
+
+-_Options
+_View
+_Rotate
+_CircleIncrement
+_Pause
+_Enter
+_Enter
+_Enter
+-_OptionsPage
+_AdvancedSettings
+-_Properties
+	-_Properties _Pause _Material _Match _Pause _Color=Yes _GlossFinish=Yes _Transparency=Yes _TextureMap=Yes _TransparencyMap=Yes _BumpMap=Yes _EnvironmentMap=Yes _Enter _Enter _Enter _Enter
+	-_Properties _Material _Layer _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _TextureMap _Image _Browse _OnOff _On _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _EnvironmentMap _Image _Browse _OnOff _On _Enter _Enter _Enter
+	-_Properties _Visible _No _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Environment _BlendAmount _Pause _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Environment _BlendAmount 10 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Environment _BlendAmount 20 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Environment _BlendAmount 30 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Environment _BlendAmount 40 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Environment _BlendAmount 50 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Environment _BlendAmount 60 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Environment _BlendAmount 70 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Environment _BlendAmount 80 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Environment _BlendAmount 90 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _GlossFinish 0 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _GlossFinish _Pause _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _GlossFinish 90 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _GlossFinish 70 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _GlossFinish 50 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _GlossFinish 30 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _GlossFinish 15 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _GlossFinish 10 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _GlossFinish 5 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _GlossFinish 3 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _GlossFinish 2 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _TextureMap _BlendAmount 0 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _TextureMap _BlendAmount _Pause _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _TextureMap _BlendAmount 100 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _TextureMap _BlendAmount 90 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _TextureMap _BlendAmount 80 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _TextureMap _BlendAmount 70 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _TextureMap _BlendAmount 60 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _TextureMap _BlendAmount 50 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _TextureMap _BlendAmount 40 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _TextureMap _BlendAmount 30 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _TextureMap _BlendAmount 20 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Transparency 0 _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Transparency _Pause _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Transparency 10 _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Transparency 20 _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Transparency 30 _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Transparency 40 _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Transparency 50 _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Transparency 60 _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Transparency 70 _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Transparency 80 _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Transparency 90 _Enter _Enter
+	-_Properties _Material _Layer _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _TextureMap _Image _Browse _OnOff _On _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _TextureMap _OnOff _Off _EnterEnd
+	-_Properties _Pause _Material _Object _Rhinoceros _TransparencyMap _Image _Browse _OnOff _On _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _TransparencyMap _OnOff _Off _EnterEnd
+	-_Properties _Pause _Material _Object _Rhinoceros _BumpMap _Image _Browse _OnOff _On _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _BumpMap _OnOff _Off _EnterEnd
+	-_Properties _Pause _Material _Object _Rhinoceros _EnvironmentMap _Image _Browse _OnOff _On _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _EnvironmentMap _OnOff _Off _EnterEnd
+	-_Properties _Pause _Material _Object _Rhinoceros _TextureMap _BlendAmount 0 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _TextureMap _BlendAmount _Pause _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Transparency 0 _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Transparency _Pause _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _GlossFinish 0 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _GlossFinish _Pause _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _Environment _BlendAmount 0 _Enter _Enter _Enter
+	-_Properties _Pause _Material _Object _Rhinoceros _EnvironmentMap _OnOff _On _EnterEnd
+	-_Properties _Pause _Material _Object _Rhinoceros _BumpMap _OnOff _On _EnterEnd
+	-_Properties _Pause _Material _Object _Rhinoceros _TextureMap _OnOff _On _EnterEnd
+	-_Properties _Pause _Material _Object _Rhinoceros _TransparencyMap _OnOff _On _EnterEnd
+-_RotateCamera
+	-_RotateCamera _U
+	-_RotateCamera _L
+
+	-_RotateCamera _R
+	-_RotateCamera _D
+
+-_RunPythonScript
+	-_RunPythonScript (
+import scriptcontext as sc
+sc.sticky[WALKABOUT_STEPSIZE] = .005
+)
+	-_RunPythonScript (
+import scriptcontext as sc
+sc.sticky[WALKABOUT_STEPSIZE] = .01
+)
+	-_RunPythonScript (
+import scriptcontext as sc
+sc.sticky[WALKABOUT_STEPSIZE] = .05
+)
+	-_RunPythonScript (
+import scriptcontext as sc
+sc.sticky[WALKABOUT_STEPSIZE] = .1
+)
+	-_RunPythonScript (
+import scriptcontext as sc
+sc.sticky[WALKABOUT_STEPSIZE] = .5
+)
+	-_RunPythonScript (
+
+import rhinoscriptsyntax as rs
+import scriptcontext as sc
+import math
+
+StepSize = 0.05
+if sc.sticky.has_key(WALKABOUT_STEPSIZE):
+    StepSize  = sc.sticky[WALKABOUT_STEPSIZE]
+
+NewStepSize = rs.RealBox("New step sizefactor", StepSize)
+if NewStepSize is not None:
+  StepSize = NewStepSize
+  sc.sticky[WALKABOUT_STEPSIZE] = StepSize
+)
+	-_RunPythonScript (
+import rhinoscriptsyntax as rs
+import scriptcontext as sc
+import math
+
+StepSize = 0.02
+if sc.sticky.has_key(WALKABOUT_STEPSIZE):
+    StepSize  = sc.sticky[WALKABOUT_STEPSIZE]
+    
+C = rs.ViewCamera()
+T = rs.ViewTarget()
+
+
+Cnew = C
+Tnew = T
+
+Dx = T[0] - C[0]
+Dy = T[1] - C[1]
+
+Cnew[0] = Cnew[0] + Dx * StepSize
+Cnew[1] = Cnew[1] + Dy * StepSize
+Tnew[0] = Tnew[0] + Dx * StepSize
+Tnew[1] = Tnew[1] + Dy * StepSize
+
+rs.ViewCameraTarget(rs.CurrentView(), Cnew, Tnew)
+)
+	-_RunPythonScript (
+import rhinoscriptsyntax as rs
+import scriptcontext as sc
+import math
+
+StepSize = 0.05
+if sc.sticky.has_key(WALKABOUT_STEPSIZE):
+    StepSize  = sc.sticky[WALKABOUT_STEPSIZE]
+    
+C = rs.ViewCamera()
+T = rs.ViewTarget()
+
+Cnew = C
+Tnew = T
+
+Dx = T[0] - C[0]
+Dy = T[1] - C[1]
+
+Cnew[0] = Cnew[0] - Dy * StepSize
+Cnew[1] = Cnew[1] + Dx * StepSize
+Tnew[0] = Tnew[0] - Dy * StepSize
+Tnew[1] = Tnew[1] + Dx * StepSize
+
+rs.ViewCameraTarget(rs.CurrentView(), Cnew, Tnew)
+)
+	-_RunPythonScript (
+import rhinoscriptsyntax as rs
+import scriptcontext as sc
+import math
+
+StepSize = 0.05
+if sc.sticky.has_key(WALKABOUT_STEPSIZE):
+    StepSize  = sc.sticky[WALKABOUT_STEPSIZE]
+    
+C = rs.ViewCamera()
+T = rs.ViewTarget()
+
+Cnew = C
+Tnew = T
+
+Dx = T[0] - C[0]
+Dy = T[1] - C[1]
+
+Cnew[0] = Cnew[0] + Dy * StepSize
+Cnew[1] = Cnew[1] - Dx * StepSize
+Tnew[0] = Tnew[0] + Dy * StepSize
+Tnew[1] = Tnew[1] - Dx * StepSize
+
+rs.ViewCameraTarget(rs.CurrentView(), Cnew, Tnew)
+)
+	-_RunPythonScript (
+
+import rhinoscriptsyntax as rs
+import scriptcontext as sc
+import math
+
+StepSize = 0.05
+if sc.sticky.has_key(WALKABOUT_STEPSIZE):
+    StepSize  = sc.sticky[WALKABOUT_STEPSIZE]
+    
+C = rs.ViewCamera()
+T = rs.ViewTarget()
+
+Cnew = C
+Tnew = T
+
+Dx = T[0] - C[0]
+Dy = T[1] - C[1]
+
+Dist = math.sqrt(Dx*Dx + Dy*Dy)
+
+Cnew[2] = Cnew[2] - Dist * StepSize
+Tnew[2] = Tnew[2] - Dist * StepSize
+
+rs.ViewCameraTarget (rs.CurrentView(), Cnew, Tnew)
+)
+	-_RunPythonScript (
+import rhinoscriptsyntax as rs
+import scriptcontext as sc
+import math
+
+StepSize = 0.02
+if sc.sticky.has_key(WALKABOUT_STEPSIZE):
+    StepSize  = sc.sticky[WALKABOUT_STEPSIZE]
+    
+C = rs.ViewCamera()
+T = rs.ViewTarget()
+
+
+Cnew = C
+Tnew = T
+
+Dx = T[0] - C[0]
+Dy = T[1] - C[1]
+
+Cnew[0] = Cnew[0] - Dx * StepSize
+Cnew[1] = Cnew[1] - Dy * StepSize
+Tnew[0] = Tnew[0] - Dx * StepSize
+Tnew[1] = Tnew[1] - Dy * StepSize
+
+rs.ViewCameraTarget(rs.CurrentView(), Cnew, Tnew)
+)
+	-_RunPythonScript (
+import rhinoscriptsyntax as rs
+import scriptcontext as sc
+import math
+
+StepSize = 0.05
+if sc.sticky.has_key(WALKABOUT_STEPSIZE):
+    StepSize  = sc.sticky[WALKABOUT_STEPSIZE]
+    
+C = rs.ViewCamera()
+T = rs.ViewTarget()
+
+Cnew = C
+Tnew = T
+
+Dx = T[0] - C[0]
+Dy = T[1] - C[1]
+
+Dist = math.sqrt(Dx*Dx + Dy*Dy)
+
+Cnew[2] = Cnew[2] + Dist * StepSize
+Tnew[2] = Tnew[2] + Dist * StepSize
+
+rs.ViewCameraTarget (rs.CurrentView(), Cnew, Tnew)
+)
+-_RunScript
+	-_RunScript (
+C = Rhino.ViewCamera()
+T = Rhino.ViewTarget()
+if (StepSize = 0) then StepSize = 0.05
+
+Cnew = C
+Tnew = T
+
+Dx = T(0) - C(0)
+Dy = T(1) - C(1)
+
+Dist = Sqr(Dx*Dx + Dy*Dy)
+
+Cnew(2) = Cnew(2) - Dist * StepSize
+Tnew(2) = Tnew(2) - Dist * StepSize
+
+Rhino.ViewCameraTarget Rhino.CurrentView(), Cnew, Tnew
+)
+-_Save
+	-_Save _GeometryOnly=Yes _SavePluginData=No _SaveSmall=Yes _Browse
+-_TurnTable
+	-_TurnTable _Speed=25 _Revolutions=1 _Enter
+-_ViewportProperties
+_Lens
+	-_ViewportProperties
+_Lens 17 _Enter
+
+	-_ViewportProperties
+_Lens 25 _Enter
+
+	-_ViewportProperties
+_Lens 50 _Enter
+
+	-_ViewportProperties
+_Lens 100 _Enter
+
+	-_ViewportProperties
+_Lens _Pause _Enter
+
+-_Zoom
+	-_Zoom _1To1
+Hyperbola
+	Hyperbola _FromFocii
+RPCAbout
+RPCAvail
+RPCAvailBrowser
+RPCHelp
+	RPCHelp
+	RPCHelp
+RPCMassEdit
+RPCSite
+RpcOpenProp
+ShowPt
+_*Connect
+_-BlockManager
+	_-BlockManager _Update _All _Enter
+_-CommandHistory
+	_-CommandHistory _File
+_Browse
+_-DisplayProperties
+	_-DisplayProperties _Visible=_Toggle _Enter
+_-DocumentProperties
+	_-DocumentProperties _Grid
+_MinorLineSpacing
+_Pause _Enter _Enter
+_-DocumentPropertiesPage
+	_-DocumentPropertiesPage _LineTypes
+
+_-Dot
+	_-Dot 1 
+	_-Dot 2 
+	_-Dot 3 
+	_-Dot 4 
+	_-Dot 5 
+	_-Dot 6 
+	_-Dot 7 
+	_-Dot 8 
+	_-Dot 9 
+	_-Dot 0 
+_-Environments
+	_-Environments _ShowPanel _Toggle _Enter
+_-GroundPlane
+	_-GroundPlane _ShowPanel _Toggle _Enter
+_-Hide
+	_-Hide _Pause "A" _Enter
+	_-Hide _Pause "B" _Enter
+	_-Hide _Pause "C" _Enter
+	_-Hide _Pause _Pause _Enter
+	_-Hide 
+_-Layer
+	_-Layer _Visible=_No _Enter
+	_-Layer _Current _Pause _Enter
+	_-Layer _On * _Enter 
+	_-Layer _Visible=_No _Enter
+	_-Layer _Visible _Toggle _EnterEnd
+_-Layerbook
+	_-Layerbook _Previous _Enter
+	_-Layerbook _Next _Enter
+	_-Layerbook _Advanced _InitialViews
+	_-Layerbook _Advanced _PrintLayerBook
+_-Layout
+	_-Layout _Enter _Enter _Enter 1
+	_-Layout _Enter _Enter _Enter 4
+_-Libraries
+	_-Libraries _ShowPanel _Toggle _Enter
+	_-Libraries _ShowPanel _Toggle _Enter
+_-Lights
+	_-Lights _ShowPanel _Toggle _Enter
+_-Materials
+	_-Materials _ShowPanel _Toggle _Enter
+	_-Materials _ShowPanel _Toggle _Enter
+_-NamedCPlane
+	_-NamedCPlane _Visible _Visible _Toggle _EnterEnd
+	_-NamedCPlane _Save
+_Pause _Enter
+	_-NamedCPlane _Restore
+_Pause _Enter
+	_-NamedCPlane _Import
+_Browse
+	_-NamedCPlane _Visible _Visible _Toggle _Enter _Enter
+_-NamedPosition
+	_-NamedPosition _Visible _Visible _Toggle _EnterEnd
+_-NamedView
+	_-NamedView Save
+_Pause _Enter
+	_-NamedView _Restore
+_Pause _Enter
+	_-NamedView _TabVisibility _TabVisible=_Toggle _Enter _Enter
+_-Notifications
+	_-Notifications _Toggle
+_-Options
+	_-Options _ModelingAids
+_CPlanes=_Universal
+_Enter _Enter
+
+	_-Options _ModelingAids
+_Cplanes=_Standard
+_Enter _Enter
+
+	_-Options _SmartTrack
+_EnableSmartTrack=Yes
+_Enter
+_Enter
+	_-Options _SmartTrack
+_EnableSmartTrack=No
+_Enter
+_Enter
+_-OptionsPage
+	_-OptionsPage _Plugin
+_-Properties
+	_-Properties _Pause _Material _Object "Rhinoceros" _Color _ColorPicker _EnterEnd
+ 
+	_-Properties _Pause _Material _Object "Rhinoceros" _GlossColor _ColorPicker _EnterEnd
+_-Rebuild
+	_-Rebuild _Pause
+_SelectMasterCurve
+_-Rendering
+	_-Rendering _ShowPanel _Toggle _Enter
+_-Shade
+_View=_All
+_Enter
+_-Show
+	_-Show "A"
+	_-Show "B"
+	_-Show "C"
+	_-Show _Pause
+_-SnapShots
+	_-SnapShots _Visible _Visible _Toggle _EnterEnd
+_-Spiral
+	_-Spiral _Flat
+_-Sun
+	_-Sun _ShowPanel _Toggle _Enter
+_-Text
+_-Textures
+	_-Textures _ShowPanel _Toggle _Enter
+_-Toolbar
+	_-Toolbar _Collection
+_Open _Pause _Enter _Enter
+	_-Toolbar _Collection _Saveall
+_Enter _Enter
+ 
+	_-Toolbar _Collection
+_Save _Pause
+_Enter _Enter 
+_-ViewportProperties
+	_-ViewportProperties _CameraTarget
+_Pause _Pause !
+	_-ViewportProperties _CameraTarget
+_Enter _Pause _Enter
+	_-ViewportProperties _Projection
+_TwoPointPerspective _Enter
+_-ViewportProperties
+_Lens
+	_-ViewportProperties
+_Lens _Pause _Enter
+_-ViewportProperties
+_Projection
+	_-ViewportProperties
+_Projection _Toggle _enter
+_-WebBrowser
+	_-WebBrowser _Visible _Toggle
+	_-WebBrowser _Visible=_Toggle
+	_-WebBrowser _Visible=_No
+_-Worksession
+	_-Worksession _Attach _Browse _Enter
+_3DFace
+	_3DFace _Output=_Mesh
+	_3DFace _Output=_SubD
+_3View
+	_3View
+	_3View ZEA
+_3dFace
+	_3dFace _Output=_Mesh _Append
+	_3dFace _Output=_SubD _Append
+_4View
+	_4View
+	_4View ZEA
+_AddGuide
+_AddMissingBlockAttributeKeys
+_AddNextU
+
+_AddNextV
+_AddNgonsToMesh
+_AddPrevU
+_AddPrevV
+_AddToGroup
+_Align
+	_Align _Pause _Top
+	_Align _Pause _Bottom
+	_Align _Pause _Left
+	_Align _Pause _Right
+	_Align _Pause _HorizCenter
+	_Align _Pause _VertCenter
+	_Align _Pause _Concentric
+	_Align
+_AlignVertices
+_AlongLine
+_AlongParallel
+_Angle
+_ApplyBoxMapping
+	_ApplyBoxMapping
+	_ApplyBoxMapping
+_ApplyCrv
+_ApplyCustomMapping
+_ApplyCylindricalMapping
+	_ApplyCylindricalMapping
+	_ApplyCylindricalMapping
+_ApplyMesh
+_ApplyMeshUVN
+_ApplyPlanarMapping
+	_ApplyPlanarMapping
+	_ApplyPlanarMapping
+_ApplySphericalMapping
+	_ApplySphericalMapping
+	_ApplySphericalMapping
+_ApplySurfaceMapping
+	_ApplySurfaceMapping
+	_ApplySurfaceMapping
+_Arc
+	_Arc _StartPoint
+	_Arc _StartPoint
+_Pause
+_ThroughPoint
+	_Arc _StartPoint
+_Pause _Pause _Direction
+	_Arc _StartPoint _Pause _Direction
+	_Arc _StartPoint
+_Pause _Pause _Radius
+	_Arc _Tangent
+	_Arc _Tangent
+_Pause _Pause
+_Radius
+	_Arc
+_ArcBlend
+_Area
+_AreaCentroid
+_AreaMoments
+_Array
+_ArrayCrv
+_ArrayCrvOnSrf
+_ArrayHole
+_ArrayHolePolar
+_ArrayLinear
+_ArrayPolar
+_ArraySrf
+_Arrowhead
+_AssignBlankTexture
+_AttachGHSData
+_Audit
+_Audit3dmFile
+_AutoPull=_Off
+_AutoPull=_On
+_AutoSave
+_BackgroundBitmap
+	_BackgroundBitmap _Move
+_Pause _Pause !
+	_BackgroundBitmap _Scale
+_Pause _Pause _Pause !
+	_BackgroundBitmap _Align
+_Pause _Pause _Pause _Pause !
+	_BackgroundBitmap
+_BackgroundBitmap
+_Place
+	_BackgroundBitmap
+_Place _Pause _Pause
+_Enter _Enter
+_BackgroundBitmap
+_Remove
+	_BackgroundBitmap
+_Remove !
+_BackgroundBitmap
+_Visible=_No
+	_BackgroundBitmap
+_Visible=_No !
+_BackgroundBitmap
+_Visible=_Yes
+	_BackgroundBitmap
+_Visible=_Yes !
+_BatchRenderNamedViews
+_Bend
+_Between
+_Bevel
+	_Bevel
+	_Bevel
+_Blend
+	_Blend
+	_Blend _Perpendicular
+_Pause _Pause
+_Perpendicular
+
+_BlendCrv
+	_BlendCrv _Edges
+	_BlendCrv
+_BlendEdge
+_BlendSrf
+_Block
+_BlockEdit
+_BlockManager
+_BlockResetScale
+_Boolean2Objects
+_BooleanDifference
+_BooleanIntersection
+_BooleanSplit
+_BooleanUnion
+_Boss
+_Bounce
+_BoundingBox
+	_BoundingBox
+	_BoundingBox pause CPlane
+_Box
+	_Box _3Point
+	_Box _Center
+	_Box _Diagonal
+	_Box
+_BoxEdit
+_Bridge
+_BringForward
+_BringtoFront
+_CPlane
+	_CPlane
+	_CPlane _Elevation
+	_CPlane _Object
+	_CPlane _Surface
+	_CPlane _Curve
+	_CPlane _Rotate
+	_CPlane _3Point _Pause
+_Vertical _Pause _Enter _Enter
+	_CPlane _3Point 
+	_CPlane _3Point
+_Pause _Pause _Enter
+	_CPlane _3Point
+_Pause _Z _Pause
+	_CPlane _Undo
+	_CPlane _Redo
+	_CPlane _View
+	_CPlane _World _Top
+	_CPlane _World _Bottom
+	_CPlane _World _Front
+	_CPlane _World _Back
+	_CPlane _World _Right
+	_CPlane _World _Left
+	_CPlane _Origin
+_CSec
+_Cage
+	_Cage
+	_Cage
+_CageEdit
+_Calc
+_CalcRPN
+_Cancel
+_Cap
+_Catenary
+_CenterSnap
+_Centermark
+_Chain=_No
+_Chain=_Yes
+_Chamfer
+_ChamferEdge
+_ChamferSrf
+_ChangeDegree
+	_ChangeDegree
+	_ChangeDegree
+_ChangeLayer
+_ChangeSpace
+_ChangeToCurrentLayer
+_Check
+_CheckNewObjects
+_Circle
+	_Circle _Diameter
+	_Circle _3Point
+	_Circle _AroundCurve
+	_Circle _Tangent _Pause
+_Pause _Radius
+	_Circle _Tangent
+	_Circle _Vertical
+	_Circle _Vertical _Diameter
+	_Circle _Deformable
+	_Circle _FitPoints
+	_Circle
+_Clash
+_ClearAllMeshes
+_ClearAnalysisMeshes
+_ClearDrawOrder
+	_ClearDrawOrder 
+_ClearUndo
+_ClippingPlane
+_CloseCrv
+_CloseViewport
+_ClosestPt
+	_ClosestPt
+	_ClosestPt _Pause _Object
+_CollapseMeshEdge
+_CollapseMeshFace
+_CollapseMeshFacesByArea
+_CollapseMeshFacesByAspectRatio
+_CollapseMeshFacesByEdgeLength
+_CollapseMeshVertex
+_CommandHelp
+_CommandHistory
+_Commands
+_Cone
+_Conic
+	_Conic
+	_Conic _Perpendicular
+	_Conic _Tangent
+	_Conic _Tangent
+_Pause _Pause _Tangent
+_Connect
+_ContinueCurve
+_ContinueInterpCrv
+_Contour
+_Convert
+	_Convert _Output=_Arcs
+_DeleteInput=_Yes
+	_Convert _Pause _Output=_Arcs
+	_Convert _Pause _Output=_Lines
+_DeleteInput=_Yes
+_ConvertDots
+_ConvertTextToBlockAttribute
+_Copy
+	_Copy
+	_Copy _Pause _InPlace
+_CopyDetailToViewport
+_CopyHole
+_CopyLayout
+_CopyToClipBoard
+_CopyToLayer
+_CopyViewportToDetail
+_Crease
+_CreateSolid
+_CreateUVCrv
+_Crv2View
+_CrvDeviation
+_CrvEnd
+_CrvSeam
+_CrvStart
+_CullDegenerateMeshFaces
+_Curvature
+_CurvatureAnalysis
+_CurvatureAnalysisOff
+_CurvatureGraph
+	_CurvatureGraph 
+_CurvatureGraphOff
+_Curve
+_CurveBoolean
+	_CurveBoolean
+	_CurveBoolean _DeleteInput=_All
+_CurveThroughPolyline
+_pause
+	_CurveThroughPolyline
+_pause _CurveType=_ControlPoint
+	_CurveThroughPolyline
+_pause _CurveType=_Interpolated
+_CurveThroughPt
+_CurveThroughPt
+_Pause
+_Degree=1
+_CurveType=_Interpolated
+_Cut
+_CutPlane
+_Cylinder
+_DeleteFaces
+_DeleteMeshNgons
+_DeleteSubCrv
+_Detail
+	_Detail _Add
+_DevLoft
+_Diameter
+_DigCalibrate
+_DigClick
+_DigDisconnect
+_DigLine
+_DigPause
+_DigScale
+_DigSection
+_DigSketch
+_Digitize
+_Dim
+	_Dim _Continue=_No _Pause _Pause _Horizontal
+	_Dim _Continue=_No _Pause  _Pause _Vertical
+	_Dim _Continue=_No
+	_Dim _Continue=_Yes
+	_Dim _Continue=_Yes _Pause  _Pause _Vertical 
+	_Dim _Continue=_Yes _Pause _Pause _Horizontal
+_DimAligned
+	_DimAligned _Continue=_No
+	_DimAligned _Continue=_Yes
+_DimAngle
+	_DimAngle
+	_DimAngle _Points
+_DimArea
+_DimCreaseAngle
+_DimCurveLength
+_DimDiameter
+_DimOrdinate
+_DimRadius
+_DimRecenterText
+_DimRotated
+	_DimRotated  _Pause _Pause _Continue=_Yes
+	_DimRotated _Pause _Pause _Continue=_No
+_Dir
+_DirectionalLight
+_DisableClippingPlane
+_DisableOsnap
+	_DisableOsnap _Toggle
+_Distance
+_Distribute
+_Divide
+	_Divide _Pause _Length
+	_Divide
+_DivideAlongCreases
+	_DivideAlongCreases
+	_DivideAlongCreases _SplitAttangents=_Yes
+_DocumentProperties
+_DocumentPropertiesPage
+
+	_DocumentPropertiesPage
+ _AnnotationStyles
+_DocumentPropertiesPage
+_Mesh
+_DocumentPropertiesPage
+_Rendering
+_DollyZoom
+	_DollyZoom
+	_DollyZoom
+_Domain
+_Dot
+_DraftAngleAnalysis
+_DraftAngleAnalysisOff
+_DragMode
+	_DragMode
+	_DragMode _UVN
+	_DragMode _ControlPolygon
+	_DragMode _CPlane
+	_DragMode _World
+	_DragMode _View
+_DragMode
+
+_DragStrength
+_Drape
+_DrapePt
+_DupAnnotationStyle
+_DupBorder
+_DupEdge
+_DupFaceBorder
+_DupLayer
+_DupMeshEdge
+_DupMeshHoleBoundary
+_EMap
+_EMapOff
+_EarthAnchorPoint
+_EdgeContinuity
+_EdgeSrf
+_EditLightByHighlight
+	_EditLightByHighlight
+	_EditLightByHighlight _NewLight _Type=_Line
+_EditLightByLooking
+	_EditLightByLooking
+	_EditLightByLooking _NewSpotlight
+_EditPtOn
+_EditPythonScript
+_EditScript
+_Ellipse
+	_Ellipse _Diameter
+	_Ellipse _FromFoci
+	_Ellipse _AroundCurve
+	_Ellipse _Corner
+	_Ellipse
+	_Ellipse _Deformable
+_Ellipsoid
+	_Ellipsoid _Diameter
+	_Ellipsoid _FromFoci
+	_Ellipsoid _Corner
+	_Ellipsoid _AroundCurve
+	_Ellipsoid
+_EnableClippingPlane
+_EndBulge
+_EndBulge
+
+_EndSnap
+_Enter
+_EvaluatePt
+_EvaluateUVPt
+_EvaluateUVpt
+_Explode
+_ExplodeBlock
+_Export
+	_Export
+	_Export
+_ExportBitmaps
+_ExportWithOrigin
+_Extend
+	_Extend _Enter
+_Type=_Smooth
+
+	_Extend _Enter
+_Type=_Line
+
+	_Extend _Enter
+_Type=_Arc
+_Pause
+_ToPoint
+
+	_Extend _Enter
+_Type=_Arc
+
+	_Extend _Enter
+_Type=_Arc
+_Pause
+_Center
+	_Extend _Type=_Natural
+_ExtendCrvOnSrf
+_ExtendDynamic
+	_ExtendDynamic _Type=_Natural
+_ExtendSrf
+_ExtractBadSrf
+_ExtractConnectedMeshFaces
+_ExtractControlPolygon
+_ExtractCustomMappingObject
+_ExtractDuplicateMeshFaces
+_ExtractIsoCurve
+_ExtractMeshEdges
+_ExtractMeshFaces
+_ExtractMeshFacesByArea
+_ExtractMeshFacesByAspectRatio
+_ExtractMeshFacesByDraftAngle
+_ExtractMeshFacesByEdgeLength
+_ExtractMeshPart
+_ExtractPt
+_ExtractSrf
+_ExtractSubCrv
+_ExtractWireframe
+_ExtractmeshFacesByEdgeLength
+_ExtrudeCrv
+	_ExtrudeCrv _Pause
+_Solid=_No
+	_ExtrudeCrv _Pause
+_Solid=_Yes
+	_ExtrudeCrv _Pause
+_Solid=_Yes
+_ExtrudeCrvAlongCrv
+	_ExtrudeCrvAlongCrv _Pause
+ _Solid=_No
+_SubCurve=_No
+	_ExtrudeCrvAlongCrv _Pause
+_Solid=_No
+_SubCurve=_Yes
+	_ExtrudeCrvAlongCrv _Pause
+ _Solid=_Yes
+_SubCurve=_No
+	_ExtrudeCrvAlongCrv _Pause
+ _Solid=_Yes
+_SubCurve=_Yes
+_ExtrudeCrvTapered
+	_ExtrudeCrvTapered _Pause
+_Solid=_Yes
+_ExtrudeCrvToPoint
+	_ExtrudeCrvToPoint _Pause
+_Solid=_No
+	_ExtrudeCrvToPoint _Pause
+_Solid=_Yes
+_ExtrudeMesh
+_ExtrudeSrf
+	_ExtrudeSrf _Pause
+_Solid=_Yes
+	_ExtrudeSrf _Pause
+_ToBoundary=_Yes
+_ExtrudeSrf
+_Pause
+_DeleteInput=_Yes
+
+_ExtrudeSrfAlongCrv
+	_ExtrudeSrfAlongCrv _Pause
+SubCurve=_No
+ _Solid=_Yes
+	_ExtrudeSrfAlongCrv _Pause
+SubCurve=_Yes
+_Solid=_Yes
+_ExtrudeSrfAlongCrv
+_Pause
+_DeleteInput=_Yes
+
+_ExtrudeSrfTapered
+	_ExtrudeSrfTapered _Pause
+ _Solid=_Yes
+_ExtrudeSrfToPoint
+	_ExtrudeSrfToPoint _Pause
+ _Solid=_Yes
+_ExtrudeSubD
+_Fair
+_Fill
+_FillMeshHole
+_FillMeshHoles
+_Fillet
+_FilletCorners
+_FilletEdge
+	_FilletEdge
+	_FilletEdge _Edit
+_FilletSrf
+_Fin
+_FindText
+_FitCrv
+_FitSrf
+_FixedLengthCrvEdit
+_FlatShade
+_FlattenSrf
+_Flip
+	_Flip
+	_Flip
+_Flow
+	_Flow
+	_Flow
+_FlowAlongSrf
+_FoldFace
+_From
+_FromEdge
+_GCon
+_Grasshopper
+_GrasshopperPlayer
+_GrasshopperPlugInList
+_Group
+_Gumball
+	_Gumball _Toggle
+_GumballAlignment
+	_GumballAlignment _CPlane
+	_GumballAlignment _Object
+	_GumballAlignment _World
+_GumballAutoReset
+_GumballRelocate
+_HBar
+_HandleCurve
+_Hatch
+	_Hatch
+	_Hatch _Boundary=_Yes
+_HatchBase
+_HatchScale
+_Heightfield
+_Helix
+	_Helix
+	_Helix _Vertical
+_Help
+_Hide
+_HideInDetail
+_HideLayersInDetail
+	_HideLayersInDetail
+	_HideLayersInDetail
+_HidePt
+	_HidePt
+	_HidePt
+_HideSwap
+_History
+	_History
+	_History _Record=_Yes _Enter
+
+	_History _Record=_No _Enter
+	_History _Lock=_Yes _Enter
+	_History _Lock=_No _Enter
+_HistoryPurge
+_HistoryUpdate
+	_HistoryUpdate
+	_HistoryUpdate _All
+_Hydrostatics
+_Hyperbola
+	_Hyperbola
+	_Hyperbola _FromVertex
+_Hyperlink
+	_Hyperlink
+	_Hyperlink _Open
+_Import
+_ImportAnnotationStyles
+_ImportLayout
+_IncrementalSave
+_InfinitePlane
+_Insert
+_InsertControlPoint
+	_InsertControlPoint
+	_InsertControlPoint
+_InsertEdge
+	_InsertEdge _Type=_Loop
+	_InsertEdge _Type=_Ring
+_InsertEditPoint
+_InsertKink
+_InsertKnot
+_InsertLineIntoCrv
+_InsertPoint
+_Inset
+	_Inset
+	_Inset
+_InterpCrv
+_InterpcrvOnSrf
+_Intersect
+_IntersectSelf
+_IntersectTwoSets
+_IntersectionSnap
+_Invert
+	_Invert _Hide
+	_Invert
+	_Invert _SelConnected _Invert
+	_Invert _HidePt _SelNone
+	_Invert _HidePt _SelNone
+_InvertPt
+	_InvertPt
+	_InvertPt
+_IsoMetric
+	_IsoMetric _NE
+	_IsoMetric _NW
+	_IsoMetric _SE
+	_IsoMetric _SW
+_Isolate
+_IsolateLock
+_Join
+_JoinEdge
+_KnotSnap
+_Lasso
+_LayerBook
+	_LayerBook
+	_LayerBook _Stop
+_LayerStateManager
+_Layerbook
+	_Layerbook _Advanced _PrepareToSave
+	_Layerbook 1
+	_Layerbook _Stop
+_Layout
+_LayoutProperties
+_Layouts
+_Leader
+_Length
+_LimitReferenceModel
+_Line
+	_Line
+	_Line _BothSides
+	_Line _Normal
+	_Line _Normal
+_Pause _Pause _Bothsides
+	_Line _Vertical
+	_Line _Vertical _Pause
+_BothSides
+	_Line _FourPoint
+	_Line _FourPoint
+_Pause _Pause _Pause
+_BothSides
+	_Line _Bisector
+	_Line _Bisector
+_Pause _Pause _Pause
+_BothSides
+	_Line _Angled
+	_Line _Angled
+ _Pause _Pause _Pause
+_BothSides
+	_Line _Perpendicular
+	_Line _Perpendicular _Point
+	_Line _Perpendicular _2Curves
+	_Line _Tangent _Pause 
+	_Line _Tangent
+	_Line _Tangent _2Curves
+_LineThroughPt
+_LinearLight
+_Lines
+_LinetypeDisplay
+	_LinetypeDisplay _DisplayLinetypes _Enter
+	_LinetypeDisplay
+_List
+_LoadScript
+_Lock
+_LockSwap
+_LockViewport
+_Loft
+_MPlane
+_MacroEditor
+_Maelstrom
+_Make2D
+_MakeHole
+_MakeNonPeriodic
+	_MakeNonPeriodic
+	_MakeNonPeriodic
+_MakePeriodic
+	_MakePeriodic
+	_MakePeriodic
+_MakeSubDFriendly
+_MakeUniform
+_MakeUniformUV
+_MappingOff
+_MappingOn
+_MappingWidget
+	_MappingWidget
+	_MappingWidget
+_MappingWidgetOff
+	_MappingWidgetOff
+	_MappingWidgetOff
+_MarkFoci
+_Match
+_MatchCrvDir
+_MatchLayer
+_MatchMapping
+_MatchMeshEdge
+_MatchProperties
+_MatchSrf
+	_MatchSrf
+	_MatchSrf _MultipleMatches
+_MaxViewport
+_MeanCurve
+_Merge2MeshFaces
+_MergeAllCoplanarFaces
+_MergeAllEdges
+_MergeCoplanarFace
+_MergeEdge
+_MergeFaces
+_MergeSrf
+_Mesh
+_MeshBooleanDifference
+_MeshBooleanIntersection
+_MeshBooleanSplit
+_MeshBooleanUnion
+_MeshBox
+_MeshCone
+_MeshCylinder
+_MeshEllipsoid
+_MeshFromLines
+_MeshFromPoints
+_MeshIntersect
+_MeshOutline
+_MeshPatch
+_MeshPlane
+_MeshPolyline
+_MeshRepair
+_MeshSphere
+_MeshSplit
+_MeshTorus
+_MeshTrim
+_MeshTruncatedCone
+_MidPoint
+_Mirror
+	_Mirror
+	_Mirror _Pause _3point
+_MirrorHole
+_ModelBasePoint
+_Move
+	_Move
+	_Move _Pause  _SetRedrawOff
+0,0,0 .1,0,0
+ _SetRedrawOn
+	_Move _Pause  _SetRedrawOff
+W0,0 W.1,0
+ _SetRedrawOn
+	_Move _Pause  _SetRedrawOff
+0,0,0 0,.1,0
+ _SetRedrawOn
+	_Move _Pause  _SetRedrawOff
+W0,0,0 W0,1,0
+ _SetRedrawOn
+	_Move _Pause  _SetRedrawOff
+0,0,0 0,0,.1
+ _SetRedrawOn
+	_Move _Pause  _SetRedrawOff
+W0,0,0 W0,0,.1
+ _SetRedrawOn
+	_Move _Pause  _SetRedrawOff
+0,0,0 -.1,0,0
+ _SetRedrawOn
+	_Move _Pause  _SetRedrawOff
+W0,0 W-.1,0
+ _SetRedrawOn
+	_Move _Pause  _SetRedrawOff
+0,0,0 0,-.1,0
+ _SetRedrawOn
+	_Move _Pause  _SetRedrawOff
+W0,0,0 W0,-.1,0
+ _SetRedrawOn
+	_Move _Pause  _SetRedrawOff
+0,0,0 0,0,-.1
+ _SetRedrawOn
+	_Move _Pause  _SetRedrawOff
+W0,0,0 W0,0,-.1
+ _SetRedrawOn
+	_Move _Pause _Vertical
+	_Move _Pause _Normal
+_MoveCrv
+_MoveEdge
+_MoveExtractedIsocurve
+_MoveFace
+	_MoveFace
+	_MoveFace _Pause _ToBoundary
+_MoveHole
+	_MoveHole _Copy=_No
+_MoveTargetToObjects
+_MoveUVN
+_MoveUVNOff
+_MoveUntrimmedEdge
+_MoveUntrimmedFace
+_MultiPipe
+_NamedSelections
+_NamedView
+_NearSnap
+_NetworkSrf
+_New
+_NewFloatingViewport
+	_NewFloatingViewport 
+_NewFloatingViewport
+_Projection
+	_NewFloatingViewport
+_Projection _Perspective
+_NewViewport
+_NextU
+
+_NextV
+_NoEcho
+	_NoEcho _-Options _Nudge _Direction=_UVN
+_EnterEnd
+	_NoEcho _-Options _Nudge _Direction=_CPlane
+_Enter _Enter _Enter 
+	_NoEcho End,Point,Midpoint,Center,Intersection,Tangent,Perpendicular,Quadrant
+	_NoEcho _Osnap _End _Point _MidPoint _Center _Intersection _Tangent _Perpendicular _Quadrant _Enter
+	_NoEcho -_OptionsPage _Alerter
+	_NoEcho _OptionsPage
+_RhinoMail
+	_NoEcho _-DocumentProperties
+_Grid _ShowGrid=_Yes _EnterEnd
+	_NoEcho _-DocumentProperties
+_Grid _ShowGrid=_No _EnterEnd
+	_NoEcho ! _HatchScale _Scaling=_Toggle _Enter 
+_NoSnap
+_Notes
+	_Notes 
+_OSnap
+	_OSnap _None _Enter
+_Offset
+_OffsetCrvOnSrf
+_OffsetMesh
+_OffsetMultiple
+_OffsetNormal
+_OffsetSrf
+_OffsetSubD
+_OnCurve
+_OnPOlySurface
+_OnSurface
+_OneLayerOff
+_OneLayerOn
+_OneView
+_Open
+_OpenURL
+	_OpenURL https://www.rhino3d.com/go/NewV7
+_Options
+_OptionsExport
+_OptionsImport
+_OptionsPage
+	_OptionsPage _SmartTrack
+_Orient
+_Orient3Pt
+_OrientCameraToSrf
+_OrientCrvToEdge
+_OrientOnSrf
+_OrientOncrv
+_Pause
+	_OrientOncrv
+_Pause _Pause _Pause
+_Perpendicular
+
+_Ortho
+_OrthoAngle
+_Osnap
+	_Osnap _End _Enter
+	_Osnap _Near _Enter
+	_Osnap _Point _Enter
+	_Osnap _Mid _Enter
+	_Osnap _Center _Enter
+	_Osnap _Intersection _Enter
+	_Osnap _Perpendicular _Enter
+	_Osnap _Tan _Enter
+	_Osnap _Quad _Enter
+	_Osnap _Knot _Enter
+	_Osnap _Vertex
+_PackSubDFaces
+_PackTextures
+	_PackTextures
+	_PackTextures
+_PackageManager
+_Pan
+_Parabola
+	_Parabola
+	_Parabola _Vertex
+_Parabola3Pt
+_Paraboloid
+	_Paraboloid
+	_Paraboloid _Vertex
+_Paste
+_Patch
+_PatchSingleFace
+_Perpendicular
+_PerpendicularFrom
+_PersistentOnCurve
+_PersistentOnPolysurface
+_PersistentOnSurface
+_PerspectiveAngle
+_PerspectiveMatch
+_Picture
+_Pipe
+	_Pipe _Pause
+_Cap=Round
+_Thick=No
+
+
+	_Pipe _Pause _Cap=_Flat _Thick=_No
+	_Pipe
+	_Pipe _Pause _Cap=_Round _Thick=_No
+_PlaceHole
+_Plan
+_PlanarDifference
+_PlanarIntersection
+_PlanarSrf
+_PlanarUnion
+_Plane
+	_Plane _3Point
+	_Plane _Vertical
+	_Plane
+_PlaneThroughPt
+_PlayAnimation
+_Point
+	_Point
+	_Point
+_PointCloud
+	_PointCloud
+	_PointCloud _Add
+	_PointCloud _Remove
+_PointCloudSection
+_PointDeviation
+_PointGrid
+_PointLight
+_PointSnap
+_Points
+_PointsFromUV
+_PointsOff
+	_PointsOff
+	_PointsOff _CurvatureGraphOff
+_EmapOff _ZebraOff _ShowDirOff
+_ShowEndsOff _ShowEdgesOff
+_CurvatureAnalysisOff _ThicknessAnalysisOff
+_SelNone
+	_PointsOff
+	_PointsOff
+_PointsOn
+	_PointsOn
+	_PointsOn
+_Polygon
+	_Polygon _Mode=_Inscribed
+	_Polygon _Mode=_Circumscribed
+	_Polygon _Edge
+	_Polygon _Mode=_Inscribed _NumSides=4
+	_Polygon _Mode=_Circumscribed _Numsides=4
+	_Polygon _Edge _NumSides=4
+	_Polygon _Star 
+_PolygonCount
+_PolygonType=_Ngon
+_PolygonType=_Quad
+_PolygonType=_Tri
+_Polyline
+_PolylineOnMesh
+_PrevU
+_PrevV
+_Print
+_PrintDisplay
+_Project
+	_Project
+	_Project _Loose=_Yes
+_ProjectOSnap
+	_ProjectOSnap _Toggle
+_ProjectToCPlane
+_Properties
+_PropertiesPage
+	_PropertiesPage _Pause _Text
+	_PropertiesPage _Pause
+_Dimension
+	_PropertiesPage _Pause _Light
+	_PropertiesPage _Pause _Material
+	_PropertiesPage _Pause _Material
+	_PropertiesPage _Pause _Displacement
+	_PropertiesPage _Pause _EdgeSoftening
+	_PropertiesPage _Pause _CurvePiping
+	_PropertiesPage _Pause _Shutlining
+	_PropertiesPage _Pause _Thickness
+_PtOffSelected
+_Pull
+	_Pull
+	_Pull _Loose
+_Purge
+_Pyramid
+_QuadRemesh
+_QuadrangulateMesh
+_QuadrantSnap
+_Radiate
+_RadiateFind
+_Radius
+_RailRevolve
+_ReadCommandFile
+_ReadViewportsFromFile
+_Rebuild
+	_Rebuild
+	_Rebuild
+	_Rebuild
+_RebuildCrvNonUniform
+_RebuildEdges
+_RebuildMesh
+_RebuildMeshNormals
+_RebuildUV
+_RecordAnimation
+_Rectangle
+	_Rectangle
+	_Rectangle _Center
+	_Rectangle _3Point
+	_Rectangle _Vertical
+	_Rectangle _Rounded
+_Pause _Pause _Corner=_Arc
+_Pause
+	_Rectangle _Rounded
+_Pause _Pause _Corner=_Conic
+_Pause
+_RectangularLight
+_Redo
+_RedoMultiple
+_RedoView
+_ReduceMesh
+_RefitTrim
+_Reflect
+	_Reflect
+	_Reflect _Pause _RemoveExistingReflectSymmetry
+_RefreshAllTextures
+_ReleaseFromCage
+_RemapCPlane
+_RemoveAllNakedMicroEdges
+_RemoveControlPoint
+	_RemoveControlPoint
+	_RemoveControlPoint
+_RemoveCrease
+_RemoveFromGroup
+_RemoveGuide
+	_RemoveGuide
+	_RemoveGuide _RemoveAll
+_RemoveKnot
+_RemoveMappingChannel
+	_RemoveMappingChannel
+	_RemoveMappingChannel
+_RemoveMultiKnot
+_RemovePerFaceColors
+_RemoveSymmetry
+_Render
+_RenderMergeIdenticalMaterials
+_RenderPreview
+_RenderedViewport
+_RepairSubD
+_Repeat
+	_Repeat _Fillet
+	_Repeat _Chamfer
+	_Repeat
+_ReplaceBlock
+_ReplaceEdge
+_Rescue3dmFile
+_RevCloud
+	_RevCloud
+	_RevCloud _Curve
+_Revert
+_Revolve
+	_Revolve
+	_Revolve _Pause _Pause _Pause _Output=_SubD
+_RevolvedHole
+_RhinoMail
+_Rib
+_Ribbon
+_RibbonOffset
+_Rotate
+_Rotate3D
+_RotateCamera
+_RotateHole
+_RotateView
+_RoundHole
+_Run
+	_Run RhinoScriptCompiler
+_RunPythonScript
+_RunScript
+_Save
+_SaveAs
+_SaveAsTemplate
+_SaveRenderWindowAs
+_SaveSmall
+_Scale
+_Scale1D
+	_Scale1D _Pause  _SetRedrawOff
+ 0,0,0 1,0,0 1.02,0,0
+ _SetRedrawOn
+	_Scale1D _Pause  _SetRedrawOff
+W0,0,0 W1,0,0 W1.02,0,0
+ _SetRedrawOn
+	_Scale1D _Pause  _SetRedrawOff
+0,0,0 0,1,0 0,1.02,0
+ _SetRedrawOn
+	_Scale1D _Pause  _SetRedrawOff
+W0,0,0 W0,1,0 W0,1.02,0
+ _SetRedrawOn
+	_Scale1D _Pause  _SetRedrawOff
+0,0,0 0,0,1 0,0,1.02
+ _SetRedrawOn
+	_Scale1D _Pause  _SetRedrawOff
+W0,0,0 W0,0,1 W0,0,1.02
+ _SetRedrawOn
+	_Scale1D _Pause _SetRedrawOff
+ 0,0,0 1.02,0,0 1,0,0
+ _SetRedrawOn
+	_Scale1D _Pause  _SetRedrawOff
+W0,0,0 W1.02,0,0 W1,0,0
+ _SetRedrawOn
+	_Scale1D _Pause  _SetRedrawOff
+ 0,0,0 0,1.02,0 0,1,0
+ _SetRedrawOn
+	_Scale1D _Pause  _SetRedrawOff
+W0,0,0 W0,1.02,0 W0,1,0
+ _SetRedrawOn
+	_Scale1D _Pause  _SetRedrawOff
+0,0,0 0,0,1.02 0,0,1
+ _SetRedrawOn
+	_Scale1D _Pause  _SetRedrawOff
+W0,0,0 W0,0,1.02 W0,0,1 
+_SetRedrawOn
+	_Scale1D
+_Scale2D
+_ScaleByPlane
+_ScaleNU
+_ScaleTextHeight
+_Section
+_SelAll
+_SelAnnotationStyle
+_SelBadObjects
+_SelBlockInstance
+_SelBlockInstanceNamed
+_SelBoundary
+_SelBox
+_SelBrush
+_SelBrushPoints
+_SelCaptives
+_SelChain
+	_SelChain _ChainContinuity=_Position
+_AutoChain=_Yes
+	_SelChain _ChainContinuity=_Tangency
+_AutoChain=_Yes
+	_SelChain _ChainContinuity=_Curvature
+_AutoChain=_Yes
+_SelChain
+
+_SelChildren
+_SelCircular
+_SelClippingPlane
+_SelClosedCrv
+_SelClosedMesh
+_SelClosedPolySrf
+_SelClosedSrf
+_SelColor
+_SelConnected
+_SelControlPoint
+_SelControlPointRegion
+_SelControls
+_SelCrv
+_SelDim
+_SelDimAngular
+_SelDimCentermark
+_SelDimLinear
+_SelDimOrdinate
+_SelDimOverride
+_SelDimRadial
+_SelDimTextOverride
+_SelDot
+_SelDup
+_SelDupAll
+_SelEdgeLoop
+_SelEdgeRing
+_SelExtrusion
+_SelFaceLoop
+_SelFence
+_SelFontUse
+_SelGroup
+_SelHatch
+_SelID
+_SelKey
+_SelKeyValue
+_SelLast
+_SelLayer
+_SelLayerNumber
+_SelLight
+_SelLine
+_SelLineType
+_SelMesh
+_SelNakedMeshEdgePt
+_SelName
+_SelNonManifold
+_SelNone
+	_SelNone _CurveThroughPt _Pause _Degree=3
+ _CurveType=_Interpolated _Closed=_No
+_Pause _enter
+_SelLast
+_Convert _Output=_Arcs _Deleteinput=_Yes _enter
+_SelLast
+_Explode
+	_SelNone
+	_SelNone _Paste _ChangeToCurrentLayer
+_SelObjectsWithHistory
+_SelOpenCrv
+_SelOpenMesh
+_SelOpenPolySrf
+_SelOpenSrf
+_SelParents
+_SelPicture
+_SelPlanarCrv
+_SelPlanarSrf
+_SelPolySrf
+_SelPolyline
+_SelPrev
+_SelPt
+_SelPtCloud
+_SelRenderColor
+_SelSelfIntersectingCrv
+	_SelSelfIntersectingCrv
+	_SelSelfIntersectingCrv
+_SelShortCrv
+_SelSmall
+_SelSrf
+_SelSubD
+_SelSubDFriendlyCrv
+_SelText
+_SelTrimmedSrf
+_SelU
+
+_SelUV
+
+_SelUntrimmedSrf
+_SelV
+
+_SelValue
+_SelVisible
+_SelVolumeObject
+_SelVolumeSphere
+_SelectionFilter
+_SelectionFilterEdges
+_SelectionFilterFaces
+_SelectionFilterNone
+_SelectionFilterVertices
+_SendBackward
+_SendToback
+_SetCurrentAnnotationStyle
+_SetDimensionLayer
+_SetDisplayMode
+	_SetDisplayMode _Viewport=_Active _Mode=_Shaded
+	_SetDisplayMode _Viewport=_Active _Mode=_Wireframe
+	_SetDisplayMode _Viewport=_Active _Mode=_XRay
+	_SetDisplayMode _Viewport=_Active _Mode=_Ghosted
+	_SetDisplayMode _Viewport=_Active _Mode=_Rendered
+	_SetDisplayMode _RenderedShadows
+	_SetDisplayMode _Viewport=_Active _Mode=_Technical
+	_SetDisplayMode _Viewport=_Active _Mode=_Pen
+	_SetDisplayMode _Viewport=_Active _Mode=_Artistic
+	_SetDisplayMode _Viewport=_All _Mode=_Shaded
+	_SetDisplayMode _Viewport=_All _Mode=_Rendered
+	_SetDisplayMode _Viewport=_All _Mode=_Ghosted
+	_SetDisplayMode _Viewport=_All _Mode=_XRay
+	_SetDisplayMode _Viewport=_All _Mode=_Wireframe
+	_SetDisplayMode _Viewport=_All _Mode=_Pen
+	_SetDisplayMode _Viewport=_All _Mode=_Artistic
+	_SetDisplayMode _Viewport=_All _Mode=_Technical
+	_SetDisplayMode _Viewport=_Active _Mode=_Raytraced
+	_SetDisplayMode _Viewport=_Active _Mode=_Arctic
+	_SetDisplayMode _Viewport=_All _Mode=_Arctic
+_SetFlythroughAnimation
+
+_SetGroupName
+_SetLayerToObject
+_SetLineType
+_SetObjectDisplayMode
+	_SetObjectDisplayMode _Pause _Mode _UseView
+	_SetObjectDisplayMode
+_SetOneDaySunAnimation
+_SetPathAnimation
+
+_SetPerFaceColorByFacePack
+_SetPt
+_SetRedrawOff
+_SetRedrawOn
+_SetSeasonalSunAnimation
+_SetSpotlightToView
+	_SetSpotlightToView
+	_SetSpotlightToView _NewSpotlight
+_SetSurfaceTangent
+_SetTurnTableAnimation
+_SetView
+	_SetView _CPlane _Top
+	_SetView _CPlane _Bottom
+	_SetView _CPlane _Front
+	_SetView _CPlane _Back
+	_SetView _CPlane _Right
+	_SetView _CPlane _Left
+	_SetView _World _Top
+	_SetView _World _Bottom
+	_SetView _World _Left
+	_SetView _World _Front
+	_SetView _World _Right
+	_SetView _World _Back
+	_SetView _World _Perspective
+_SetViewSpeed
+_SetViewToSpotlight
+_SetWorkingFolder
+_Shade
+_ShadeSelected
+_Shear
+_Shell
+_ShortPath
+_Show
+_ShowDir
+_ShowDirOff
+_ShowEdges
+_ShowEdgesOff
+_ShowEnds
+_ShowEndsOff
+_ShowInDetail
+	_ShowInDetail
+	_ShowInDetail
+_ShowLayersInDetail
+	_ShowLayersInDetail
+	_ShowLayersInDetail
+_ShowOsnap
+	_ShowOsnap _Show
+	_ShowOsnap _Hide
+	_ShowOsnap _Show
+_ShowPt
+	_ShowPt
+	_ShowPt
+	_ShowPt
+_ShowSelected
+_ShowSelectedInDetail
+	_ShowSelectedInDetail
+	_ShowSelectedInDetail
+_ShrinkTrimmedSrf
+_ShrinkTrimmedSrfToEdge
+_Silhouette
+_SimplifyCrv
+_Sketch
+	_Sketch
+	_Sketch _OnSurface=Yes
+	_Sketch _OnMesh=_Yes
+_Slab
+_Slide
+_Smash
+_Smooth
+_SnapSize
+_SnapToLocked
+	_SnapToLocked _Toggle
+_SnapToMeshObject
+_SoftEditCrv
+_SoftEditSrf
+_SoftMove
+_SoftTransform
+	_SoftTransform
+	_SoftTransform _Enable _Enter
+_SolidPtOn
+	_SolidPtOn
+	_SolidPtOn
+	_SolidPtOn
+	_SolidPtOn
+_Sphere
+	_Sphere
+	_Sphere
+	_Sphere _Diameter
+	_Sphere _3Point
+	_Sphere _4Point
+	_Sphere _AroundCurve
+	_Sphere _Tangent
+	_Sphere _FitPoints
+_Spiral
+_Split
+	_Split
+	_Split _Pause _Isocurve
+_SplitDisjointMesh
+_SplitEdge
+_SplitFace
+_SplitMeshEdge
+_SplitViewportHorizontal
+_SplitViewportVertical
+_Splop
+_Spotlight
+_SrfControlPtGrid
+_SrfPt
+_SrfPtGrid
+_SrfSeam
+_Stitch
+_Stretch
+_SubCrv
+	_SubCrv _Mode=_Shorten
+	_SubCrv _Copy=_Yes _Mode=_Shorten
+	_SubCrv _Mode=_MarkEnds
+	_SubCrv
+_SubDBox
+_SubDCone
+_SubDCylinder
+_SubDDisplayToggle
+_SubDEllipsoid
+_SubDFaceEdgeVertexToggle
+_SubDLoft
+_SubDPlane
+_SubDSphere
+_SubDSweep1
+_SubDSweep2
+_SubDTorus
+_SubDTruncatedCone
+_SubDUnfriend
+_Subdivide
+_SwapMeshEdge
+_Sweep1
+_Sweep2
+_Symmetry
+	_Symmetry
+	_Symmetry Crv
+_SynchronizeRenderColors
+_SynchronizeViews
+_SystemInfo
+_Tan
+_TangentFrom
+_Taper
+_Text
+_TextObject
+_ThicknessAnalysis
+_ThicknessAnalysisOff
+_TiltView
+_ToNURBS
+_ToNurbs
+	_ToNurbs
+	_ToNurbs
+_ToSubD
+_ToggleFloatingViewport
+_Toolbar
+_Torus
+_TriangulateMesh
+_TriangulateNonPlanarQuads
+_Trim
+_TruncatedCone
+_TruncatedPyramid
+_Tube
+_TurnTable
+_TweenCurves
+_TweenSurfaces
+_Twist
+_UVEditor
+_Undo
+	_Undo
+	_Undo
+_UndoMultiple
+_UndoSelected
+_UndoView
+_Ungroup
+_UnifyMeshNormals
+_Unisolate
+_UnisolateLock
+_UnjoinEdge
+_Unlock
+_UnlockSelected
+_UnpackTextures
+	_UnpackTextures
+	_UnpackTextures
+_UnrollSrf
+_Untrim
+	_Untrim
+	_Untrim _KeepTrimObjects=_No
+	_Untrim _KeepTrimObjects=_Yes
+_UntrimHoles
+	_UntrimHoles _All=_No
+	_UntrimHoles _All=_Yes
+_Unweld
+_UnweldEdge
+_Unwrap
+_VPoint
+_VariableBlendSrf
+_VariableChamferSrf
+_VariableFilletSrf
+_VariableOffsetSrf
+_Vertex
+_ViewCaptureToClipboard
+_ViewCaptureToFile
+_ViewFirstFrame
+
+
+_ViewFrameNumber
+_ViewLastFrame
+_ViewNextFrame
+_ViewPreviousFrame
+_ViewportProperties
+_ViewportTabs
+	_ViewportTabs
+	_ViewportTabs _Toggle _Enter
+_Volume
+_VolumeCentroid
+_VolumeMoments
+_WalkAbout
+_WebBrowser
+	_WebBrowser _Close _Enter
+_Weight
+_Weld
+_WeldEdge
+_WeldVertices
+	_WeldVertices
+	_WeldVertices
+_What
+_WireCut
+_Worksession
+_Zebra
+_ZebraOff
+_Zoom
+	_Zoom _Extents
+	_Zoom _Dynamic
+	_Zoom
+	_Zoom _All _Selected
+	_Zoom _Factor _Pause _Enter
+	_Zoom _Target
+	_Zoom _All _Extents
+	_Zoom _Selected
+_Zoom1To1Calibrate
+_ZoomLens
+_ZoomNaked
+	_ZoomNaked _Pause _All _Mark _Enter
+	_ZoomNaked _Previous
+	_ZoomNaked _All
+	_ZoomNaked _Current
+	_ZoomNaked _Next
+_ZoomNonManifold

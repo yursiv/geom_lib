@@ -1,0 +1,6 @@
+-_RunPythonScript ( import scriptcontext as sc sc.sticky['WALKABOUT_STEPSIZE'] = .005 )
+-_RunPythonScript ( import scriptcontext as sc sc.sticky['WALKABOUT_STEPSIZE'] = .01 )
+-_RunPythonScript ( import scriptcontext as sc sc.sticky['WALKABOUT_STEPSIZE'] = .05 )
+-_RunPythonScript ( import scriptcontext as sc sc.sticky['WALKABOUT_STEPSIZE'] = .1 )
+-_RunPythonScript ( import scriptcontext as sc sc.sticky['WALKABOUT_STEPSIZE'] = .5 )
+-_RunPythonScript (  import rhinoscriptsyntax as rs import scriptcontext as sc import math  StepSize = 0.05 if sc.sticky.has_key('WALKABOUT_STEPSIZE'):     StepSize  = sc.sticky['WALKABOUT_STEPSIZE']  NewStepSize = rs.RealBox("New step sizefactor", StepSize) if NewStepSize is not None:   StepSize = NewStepSize   sc.sticky['WALKABOUT_STEPSIZE'] = StepSize )

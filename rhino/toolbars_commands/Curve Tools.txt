@@ -1,0 +1,59 @@
+! _Fillet
+! _Repeat _Fillet
+! _Chamfer
+! _Repeat _Chamfer
+! _Connect
+! _*Connect
+! _FilletCorners
+! _BlendCrv
+! _Blend
+! _ArcBlend
+! _Match
+! _Symmetry Crv
+! _PointsOn
+! _PointsOff
+! _Offset
+! _OffsetMultiple
+! _OffsetNormal
+! _RemoveMultiKnot
+! _OffsetCrvOnSrf
+! _ExtendDynamic _Type=_Natural
+! _Extend _Type=_Natural
+! _CrvSeam
+! _Crv2View
+! _MatchCrvDir
+! _CSec
+! _Rebuild
+! _-Rebuild _Pause _SelectMasterCurve
+! _RebuildCrvNonUniform
+! _FitCrv
+! _ChangeDegree
+! _Fair
+! _MakeUniform
+! _SimplifyCrv
+! _Convert _Pause _Output=_Lines _DeleteInput=_Yes
+! _Convert _Pause _Output=_Arcs
+! _MakePeriodic
+! _MakeNonPeriodic
+! _CloseCrv
+! _ContinueCurve
+! _ContinueInterpCrv
+! _DeleteSubCrv
+! _ExtractSubCrv
+! _SubCrv _Mode=_Shorten
+! _SubCrv _Copy=_Yes _Mode=_Shorten
+! _InsertLineIntoCrv
+! _TweenCurves
+! _OffsetMultiple
+! _CurveBoolean
+! _CurveBoolean _DeleteInput=_All
+! _Project
+! _Project _Loose=_Yes
+! _CrvStart
+! _CrvEnd
+! _ShowEnds
+! _ShowEndsOff
+! _MoveExtractedIsocurve
+! _AddGuide
+! _RemoveGuide
+! _RibbonOffset

@@ -1,0 +1,14 @@
+! _LayoutProperties
+! _Detail _Add
+! _Layout
+! _-Layout _Enter _Enter _Enter 1
+! _-Layout _Enter _Enter _Enter 4
+! _CopyLayout
+! _CopyViewportToDetail
+! _ImportLayout
+! _ChangeSpace
+! _HideInDetail
+! _ShowInDetail
+! _ShowSelectedInDetail
+! _ShowLayersInDetail
+! _HideLayersInDetail

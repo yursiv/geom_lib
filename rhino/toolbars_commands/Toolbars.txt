@@ -1,0 +1,4 @@
+! _Toolbar
+! _-Toolbar _Collection _Open _Pause _Enter _Enter
+! _-Toolbar _Collection _Saveall _Enter _Enter  
+! _MacroEditor

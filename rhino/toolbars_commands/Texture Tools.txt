@@ -1,0 +1,13 @@
+! _PackTextures
+! _UnpackTextures
+! _RefreshAllTextures
+-_Properties _Pause _Material _Object _Rhinoceros _BumpMap _OnOff _Off _EnterEnd
+-_Properties _Pause _Material _Object _Rhinoceros _BumpMap _OnOff _On _EnterEnd
+-_Properties _Pause _Material _Object _Rhinoceros _EnvironmentMap _OnOff _Off _EnterEnd
+-_Properties _Pause _Material _Object _Rhinoceros _EnvironmentMap _OnOff _On _EnterEnd
+-_Properties _Pause _Material _Object _Rhinoceros _TextureMap _OnOff _Off _EnterEnd
+-_Properties _Pause _Material _Object _Rhinoceros _TextureMap _OnOff _On _EnterEnd
+-_Properties _Pause _Material _Object _Rhinoceros _TransparencyMap _OnOff _Off _EnterEnd
+-_Properties _Pause _Material _Object _Rhinoceros _TransparencyMap _OnOff _On _EnterEnd
+_-Textures _ShowPanel _Toggle _Enter
+_SelEdgeLoop

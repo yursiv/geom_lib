@@ -1,0 +1,46 @@
+! _-Layout _Enter _Enter _Enter 4
+! _-Layout _Enter _Enter _Enter 1
+! _Layout
+! _Detail _Add
+! _LayoutProperties
+! _Layouts
+! _Dim _Continue=_No
+! _Dim _Continue=_Yes
+! _Dim _Continue=_No _Pause _Pause _Horizontal
+! _Dim _Continue=_Yes _Pause _Pause _Horizontal
+! _Dim _Continue=_No _Pause  _Pause _Vertical
+! _Dim _Continue=_Yes _Pause  _Pause _Vertical 
+! _DimAligned _Continue=_No
+! _DimAligned _Continue=_Yes
+! _DimRotated _Pause _Pause _Continue=_No
+! _DimRotated  _Pause _Pause _Continue=_Yes
+! _DimAngle
+! _DimAngle _Points
+! _DimRadius
+! _DimDiameter
+! _Text
+! _-Text
+! _DimOrdinate
+! _Leader
+! _Centermark
+! _DimRecenterText
+! _Hatch
+! _HatchBase
+! _HatchScale
+_NoEcho ! _HatchScale _Scaling=_Toggle _Enter 
+! _DocumentPropertiesPage  _AnnotationStyles
+! _PropertiesPage _Pause _Text
+! _FindText
+! _Make2D
+! _SetLineType
+! _-DocumentPropertiesPage _LineTypes 
+! _LinetypeDisplay _DisplayLinetypes _Enter
+! _LinetypeDisplay
+! _Dot
+! _Print
+! _PrintDisplay
+! _ChangeSpace
+! _ConvertDots
+! _ImportAnnotationStyles
+! _ScaleTextHeight
+'_SelDim

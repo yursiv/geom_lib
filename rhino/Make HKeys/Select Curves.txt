@@ -1,0 +1,11 @@
+'_SelCrv
+'_SelShortCrv
+'_SelOpenCrv
+'_SelClosedCrv
+'_SelPolyline
+'_SelLine
+'_SelLineType
+'_SelPlanarCrv
+_SubCrv
+'_SelSelfIntersectingCrv
+_SelSubDFriendlyCrv

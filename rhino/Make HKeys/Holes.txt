@@ -1,0 +1,11 @@
+! _RoundHole
+! _MakeHole
+! _PlaceHole
+! _RevolvedHole
+! _MoveHole _Copy=_No
+! _CopyHole
+! _RotateHole
+! _ArrayHolePolar
+! _ArrayHole
+! _UntrimHoles _All=_No
+! _UntrimHoles _All=_Yes

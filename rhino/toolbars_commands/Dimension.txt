@@ -1,0 +1,35 @@
+! _Dim _Continue=_No
+! _Dim _Continue=_Yes
+! _Dim _Continue=_No _Pause _Pause _Horizontal
+! _Dim _Continue=_Yes _Pause _Pause _Horizontal
+! _Dim _Continue=_No _Pause  _Pause _Vertical
+! _Dim _Continue=_Yes _Pause  _Pause _Vertical 
+! _DimAligned _Continue=_No
+! _DimAligned _Continue=_Yes
+! _DimRotated _Pause _Pause _Continue=_No
+! _DimRotated  _Pause _Pause _Continue=_Yes
+! _DimAngle
+! _DimAngle _Points
+! _DimDiameter
+! _DimRadius
+! _Centermark
+! _DimCreaseAngle
+! _Text
+! _-Text
+! _PropertiesPage _Pause _Text
+! _DimOrdinate
+! _Leader
+! _DimRecenterText
+! _RevCloud
+! _RevCloud _Curve
+! _Hatch
+! _DocumentPropertiesPage  _AnnotationStyles
+! _SetCurrentAnnotationStyle
+! _SetDimensionLayer
+! _Make2D
+! _SetLineType
+! _ImportAnnotationStyles
+! _Dot
+! _DimCurveLength
+! _DimArea
+! _DupAnnotationStyle

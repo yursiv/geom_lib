@@ -1,0 +1,17 @@
+! _Box
+! _Cylinder
+! _Sphere
+! _Sphere _Diameter
+! _Ellipsoid
+! _Paraboloid
+! _Cone
+! _TruncatedCone
+! _Pyramid
+! _TruncatedPyramid
+! _Tube
+! _Torus
+! _Pipe _Pause _Cap=_Flat _Thick=_No
+! _Pipe _Pause _Cap=_Round _Thick=_No
+! _ExtrudeCrv _Pause _Solid=_Yes
+! _ExtrudeSrf _Pause _Solid=_Yes
+! _UnjoinEdge

@@ -1,0 +1,7 @@
+'_SelMesh
+'_SelOpenMesh
+'_SelClosedMesh
+'_SelVisible
+_SelEdgeLoop
+_SelEdgeRing
+_SelFaceLoop

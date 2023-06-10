@@ -1,0 +1,51 @@
+'_ShowOsnap _Show
+'_ShowOsnap _Hide
+_EndSnap
+'_Osnap _End _Enter
+_NearSnap
+'_Osnap _Near _Enter
+_PointSnap
+'_Osnap _Point _Enter
+_MidPoint
+'_Osnap _Mid _Enter
+_CenterSnap
+'_Osnap _Center _Enter
+_IntersectionSnap
+'_Osnap _Intersection _Enter
+_Perpendicular
+'_Osnap _Perpendicular _Enter
+_Tan
+'_Osnap _Tan _Enter
+_QuadrantSnap
+'_Osnap _Quad _Enter
+_KnotSnap
+'_Osnap _Knot _Enter
+_NoEcho End,Point,Midpoint,Center,Intersection,Tangent,Perpendicular,Quadrant
+'_NoEcho _Osnap _End _Point _MidPoint _Center _Intersection _Tangent _Perpendicular _Quadrant _Enter
+_From
+_PerpendicularFrom
+_TangentFrom
+_AlongLine
+_AlongParallel
+_Between
+_OnCurve
+_PersistentOnCurve
+_OnSurface
+_PersistentOnSurface
+_OnPOlySurface
+_PersistentOnPolysurface
+_Vertex
+_Osnap _Vertex
+_SnapToMeshObject
+'_ProjectOSnap _Toggle
+'_DisableOsnap _Toggle
+'_SnapToLocked _Toggle
+_NoSnap
+'_OSnap _None _Enter
+'_Ortho
+'_OrthoAngle
+_-DocumentProperties _Grid _MinorLineSpacing _Pause _Enter _Enter
+_SnapSize
+! _-Options _SmartTrack _EnableSmartTrack=Yes _Enter _Enter
+! _-Options _SmartTrack _EnableSmartTrack=No _Enter _Enter
+! _OptionsPage _SmartTrack

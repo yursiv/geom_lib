@@ -1,0 +1,56 @@
+_Cancel
+! _PointsOff _CurvatureGraphOff _EmapOff _ZebraOff _ShowDirOff _ShowEndsOff _ShowEdgesOff _CurvatureAnalysisOff _ThicknessAnalysisOff _SelNone
+! _Move
+! _Trim
+! _Untrim _KeepTrimObjects=_No
+! _Split
+! _Split _Pause _Isocurve
+! _Join
+! _Explode
+! _ExtractSrf
+! _Curve
+! _CurveThroughPt
+! _InterpCrv
+! _HandleCurve
+! _HandleCurve
+! _Sketch
+! _Sketch _OnSurface=Yes
+! _Helix
+! _Helix _Vertical
+! _Parabola3Pt
+! _Parabola
+! _Parabola _Vertex
+! _Conic _Tangent
+! _Conic _Tangent _Pause _Pause _Tangent
+! _Polyline
+! _Lines
+! _Line
+! _Line _Tangent
+! _Line _Perpendicular
+! _Line _Perpendicular _Point
+! _Line _Vertical
+! _Line _Vertical _Pause _BothSides
+! _Line _Normal
+! _Line _Normal _Pause _Pause _Bothsides
+! _Circle
+! _Circle _Tangent _Pause _Pause _Radius
+! _Circle _Diameter
+! _Circle _Vertical
+! _Arc
+! _Arc _StartPoint
+! _Arc _StartPoint _Pause _ThroughPoint
+! _Arc _StartPoint _Pause _Pause _Direction
+! _Arc _StartPoint _Pause _Direction
+! _Arc _Tangent
+! _Arc _Tangent _Pause _Pause _Radius
+! _Ellipse
+! _Ellipse _Diameter
+! _Rectangle
+! _Rectangle _3Point
+! _Rectangle _Rounded _Pause _Pause _Corner=_Arc _Pause
+! _Rectangle _Rounded _Pause _Pause _Corner=_Conic _Pause
+! _Rectangle _Vertical
+! _Polygon _Mode=_Inscribed
+! _Polygon _Mode=_Inscribed _NumSides=4
+! _Polygon _Edge _NumSides=4
+! _Polygon _Star 

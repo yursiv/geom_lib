@@ -1,0 +1,8 @@
+_Align _Pause _Top
+_Align _Pause _Bottom
+_Align _Pause _Left
+_Align _Pause _Right
+_Align _Pause _HorizCenter
+_Align _Pause _VertCenter
+! _Align _Pause _Concentric
+! _Distribute

@@ -1,0 +1,8 @@
+! _Spotlight
+! _PointLight
+! _DirectionalLight
+! _RectangularLight
+! _LinearLight
+! _EditLightByHighlight
+! _EditLightByHighlight _NewLight _Type=_Line
+! _PropertiesPage _Pause _Light

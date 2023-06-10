@@ -1,0 +1,6 @@
+! _Rectangle
+! _Rectangle _Center
+! _Rectangle _3Point
+! _Rectangle _Vertical
+! _Rectangle _Rounded _Pause _Pause _Corner=_Arc _Pause
+! _Rectangle _Rounded _Pause _Pause _Corner=_Conic _Pause

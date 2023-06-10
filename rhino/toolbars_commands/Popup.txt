@@ -1,0 +1,41 @@
+! _Hide
+! _Show
+! _Lock
+! _Unlock
+! _Save
+! _SaveAs
+'_Zoom _Extents
+'_Zoom _All _Extents
+'_Zoom
+'_Zoom _Selected
+'_Zoom _All _Selected
+'_SetDisplayMode _Viewport=_Active _Mode=_Shaded
+'_SetDisplayMode _Viewport=_Active _Mode=_Wireframe
+! _RenderedViewport
+! _Properties
+! _Join
+! _Explode
+! _ExtractSrf
+! _Zebra
+! _ZebraOff
+! _ChangeDegree
+! _CurvatureGraph 
+! _CurvatureGraphOff
+! _GCon
+'_CPlane _World _Top
+'_CPlane _Object
+! _PointsOn
+! _PointsOff
+! _FilletEdge _Edit
+! _FilletEdge
+! _BlendEdge
+! _QuadRemesh
+! _Cylinder
+! _Cap
+! _ExtrudeCrv _Pause _Solid=_Yes
+! _BooleanUnion
+! _BooleanDifference
+! _BooleanIntersection
+! _BooleanSplit
+! _Boolean2Objects
+! _CreateSolid

@@ -1,0 +1,7 @@
+! _Polygon _Mode=_Inscribed
+! _Polygon _Mode=_Circumscribed
+! _Polygon _Edge
+! _Polygon _Mode=_Inscribed _NumSides=4
+! _Polygon _Mode=_Circumscribed _Numsides=4
+! _Polygon _Edge _NumSides=4
+! _Polygon _Star 

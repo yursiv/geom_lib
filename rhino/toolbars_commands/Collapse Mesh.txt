@@ -1,0 +1,9 @@
+_Cancel
+! _PointsOff _CurvatureGraphOff _EmapOff _ZebraOff _ShowDirOff _ShowEndsOff _ShowEdgesOff _CurvatureAnalysisOff _ThicknessAnalysisOff _SelNone
+! _Move
+! _CollapseMeshFacesByEdgeLength
+! _CollapseMeshFacesByAspectRatio
+! _CollapseMeshFacesByArea
+! _CollapseMeshFace
+! _CollapseMeshEdge
+! _CollapseMeshVertex

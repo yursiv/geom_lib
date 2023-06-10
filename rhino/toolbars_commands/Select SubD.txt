@@ -1,0 +1,10 @@
+'_SelSubD
+_SelSubDFriendlyCrv
+_SelEdgeLoop
+_SelEdgeRing
+_SelFaceLoop
+_SelectionFilterEdges
+_SelectionFilterFaces
+_SelectionFilterVertices
+_SelectionFilterNone
+'_SubDFaceEdgeVertexToggle

@@ -1,0 +1,3 @@
+'_SelChain _ChainContinuity=_Position _AutoChain=_Yes
+'_SelChain _ChainContinuity=_Tangency _AutoChain=_Yes
+'_SelChain _ChainContinuity=_Curvature _AutoChain=_Yes

@@ -1,0 +1,5 @@
+! _SetSpotlightToView
+! _SetSpotlightToView _NewSpotlight
+! _SetViewToSpotlight
+! _EditLightByLooking
+! _EditLightByLooking _NewSpotlight

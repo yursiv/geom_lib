@@ -1,0 +1,20 @@
+! _Open
+! _Import
+! _Save
+! _SaveAs
+! _Join
+! _Weld
+! _TriangulateMesh
+! _SelNakedMeshEdgePt
+! _UnifyMeshNormals
+! _Flip
+_FlatShade
+'_SetDisplayMode _Viewport=_Active _Mode=_Shaded
+'_SetDisplayMode _Viewport=_Active _Mode=_Wireframe
+! _3DFace _Output=_Mesh
+! _HidePt
+! _ShowPt
+! _Invert _HidePt _SelNone
+! _PointsOn
+! _PointsOff
+! _RemoveAllNakedMicroEdges

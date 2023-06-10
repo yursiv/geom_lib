@@ -1,0 +1,14 @@
+! _Digitize
+! _DigDisconnect
+! _DigCalibrate
+! _DigScale
+! _DigPause
+! _DigSketch
+! _DigClick
+! _DigSection
+! _DigLine
+! _Points
+! _InterpCrv
+! _InterpcrvOnSrf
+! _-ViewportProperties _CameraTarget _Enter _Pause _Enter
+! _-ViewportProperties _CameraTarget _Pause _Pause !

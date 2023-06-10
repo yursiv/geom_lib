@@ -1,0 +1,11 @@
+! _History
+! _History _Record=_Yes _Enter 
+! _HistoryUpdate
+! _HistoryUpdate _All
+! _History _Record=_No _Enter
+! _History _Lock=_Yes _Enter
+! _History _Lock=_No _Enter
+! _HistoryPurge
+'_SelObjectsWithHistory
+'_SelChildren
+'_SelParents

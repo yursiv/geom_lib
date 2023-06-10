@@ -1,0 +1,9 @@
+! _ExtendDynamic _Type=_Natural
+! _Extend _Type=_Natural
+! _Connect
+! _Extend _Enter _Type=_Smooth 
+! _Extend _Enter _Type=_Line 
+! _Extend _Enter _Type=_Arc _Pause _ToPoint 
+! _Extend _Enter _Type=_Arc 
+! _Extend _Enter _Type=_Arc _Pause _Center
+! _ExtendCrvOnSrf

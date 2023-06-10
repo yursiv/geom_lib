@@ -1,0 +1,7 @@
+! _BackgroundBitmap _Place _Pause _Pause _Enter _Enter
+! _BackgroundBitmap _Remove !
+! _BackgroundBitmap _Move _Pause _Pause !
+! _BackgroundBitmap _Scale _Pause _Pause _Pause !
+! _BackgroundBitmap _Align _Pause _Pause _Pause _Pause !
+! _BackgroundBitmap _Visible=_No !
+! _BackgroundBitmap _Visible=_Yes !

@@ -1,0 +1,35 @@
+'_SetDisplayMode _Viewport=_Active _Mode=_Wireframe
+'_SetDisplayMode _Viewport=_All _Mode=_Wireframe
+'_SetDisplayMode _Viewport=_Active _Mode=_Shaded
+'_SetDisplayMode _Viewport=_All _Mode=_Shaded
+! _Shade
+! _-Shade _View=_All _Enter
+'_SetDisplayMode _Viewport=_Active _Mode=_Rendered
+'_SetDisplayMode _Viewport=_All _Mode=_Rendered
+'_SetDisplayMode _Viewport=_Active _Mode=_Raytraced
+'_SetDisplayMode _Viewport=_Active _Mode=_Ghosted
+'_SetDisplayMode _Viewport=_All _Mode=_Ghosted
+'_SetDisplayMode _Viewport=_Active _Mode=_XRay
+'_SetDisplayMode _Viewport=_All _Mode=_XRay
+'_SetDisplayMode _Viewport=_Active _Mode=_Arctic
+'_SetDisplayMode _Viewport=_All _Mode=_Arctic
+'_SetDisplayMode _Viewport=_Active _Mode=_Technical
+'_SetDisplayMode _Viewport=_All _Mode=_Technical
+'_SetDisplayMode _Viewport=_Active _Mode=_Pen
+'_SetDisplayMode _Viewport=_All _Mode=_Pen
+'_SetDisplayMode _Viewport=_Active _Mode=_Artistic
+'_SetDisplayMode _Viewport=_All _Mode=_Artistic
+_SubDDisplayToggle
+! _DocumentPropertiesPage _Mesh
+_FlatShade
+! _ShadeSelected
+! _SetObjectDisplayMode
+'_ViewCaptureToFile
+'_ViewCaptureToClipboard
+! _ClippingPlane
+! _DisableClippingPlane
+! _EnableClippingPlane
+_-DisplayProperties _Visible=_Toggle _Enter
+! _PrintDisplay
+! _RemovePerFaceColors
+! _SetPerFaceColorByFacePack

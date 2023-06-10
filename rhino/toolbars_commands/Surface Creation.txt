@@ -1,0 +1,28 @@
+! _SrfPt
+! _PlanarSrf
+! _NetworkSrf
+! _Loft
+! _EdgeSrf
+! _Patch
+! _Plane
+! _Plane _3Point
+! _Plane _Vertical
+! _PlaneThroughPt
+! _CutPlane
+! _Picture
+! _ExtrudeCrv _Pause _Solid=_No
+! _ExtrudeCrvAlongCrv _Pause  _Solid=_No _SubCurve=_No
+! _ExtrudeCrvTapered _Pause _Solid=_Yes
+! _ExtrudeCrvToPoint _Pause _Solid=_No
+! _Ribbon
+! _RibbonOffset
+! _Fin
+! _Sweep1
+! _Sweep2
+! _Revolve
+! _RailRevolve
+! _Drape
+! _Heightfield
+! _SrfPtGrid
+! _SrfControlPtGrid
+! _DevLoft

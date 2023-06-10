@@ -1,0 +1,42 @@
+! _Render
+! _-Rendering _ShowPanel _Toggle _Enter
+! _RenderPreview
+! _-Rendering _ShowPanel _Toggle _Enter
+! _SaveRenderWindowAs
+! _Spotlight
+! _PointLight
+! _DirectionalLight
+! _RectangularLight
+! _LinearLight
+! _EditLightByHighlight
+! _EditLightByHighlight _NewLight _Type=_Line
+! _PropertiesPage _Pause _Light
+! _SetSpotlightToView
+! _SetSpotlightToView _NewSpotlight
+! _SetViewToSpotlight
+! _EditLightByLooking
+! _EditLightByLooking _NewSpotlight
+! _-Properties _Pause _Material _Object "Rhinoceros" _Color _ColorPicker _EnterEnd  
+! _-Properties _Pause _Material _Object "Rhinoceros" _GlossColor _ColorPicker _EnterEnd
+-_Properties _Pause _Material _Match _Pause _Color=Yes _GlossFinish=Yes _Transparency=Yes _TextureMap=Yes _TransparencyMap=Yes _BumpMap=Yes _EnvironmentMap=Yes _Enter _Enter _Enter _Enter
+! _RenderMergeIdenticalMaterials
+! _SynchronizeRenderColors
+-_Properties _Material _Layer _Enter
+! _MappingWidget
+! _MappingWidgetOff
+! _PackTextures
+! _PropertiesPage _Pause _EdgeSoftening
+! _PropertiesPage _Pause _CurvePiping
+! _PropertiesPage _Pause _Shutlining
+! _PropertiesPage _Pause _Thickness
+! _PropertiesPage _Pause _Displacement
+_-Materials _ShowPanel _Toggle _Enter
+_-Textures _ShowPanel _Toggle _Enter
+! _-Environments _ShowPanel _Toggle _Enter
+! _-Lights _ShowPanel _Toggle _Enter
+! _-GroundPlane _ShowPanel _Toggle _Enter
+! _-Libraries _ShowPanel _Toggle _Enter
+! _-Sun _ShowPanel _Toggle _Enter
+! _PlayAnimation
+! _RecordAnimation
+! _BatchRenderNamedViews

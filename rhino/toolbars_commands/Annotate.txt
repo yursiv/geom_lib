@@ -1,0 +1,13 @@
+! _-Dot 1 
+! _-Dot 2 
+! _-Dot 3 
+! _-Dot 4 
+! _-Dot 5 
+! _-Dot 6 
+! _-Dot 7 
+! _-Dot 8 
+! _-Dot 9 
+! _-Dot 0 
+! _Arrowhead
+! _Dot
+! _ConvertDots

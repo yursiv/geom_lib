@@ -1,0 +1,13 @@
+! _ExtrudeSrf _Pause _Solid=_Yes
+! _ExtrudeSrfToPoint _Pause  _Solid=_Yes
+! _ExtrudeSrfTapered _Pause  _Solid=_Yes
+! _ExtrudeSrfAlongCrv _Pause SubCurve=_No  _Solid=_Yes
+! _ExtrudeSrfAlongCrv _Pause SubCurve=_Yes _Solid=_Yes
+! _ExtrudeCrv _Pause _Solid=_Yes
+! _ExtrudeCrvToPoint _Pause _Solid=_Yes
+! _ExtrudeCrvTapered _Pause _Solid=_Yes
+! _ExtrudeCrvAlongCrv _Pause  _Solid=_Yes _SubCurve=_No
+! _ExtrudeCrvAlongCrv _Pause  _Solid=_Yes _SubCurve=_Yes
+! _Slab
+! _Boss
+! _Rib

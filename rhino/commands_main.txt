@@ -1,0 +1,828 @@
+AddGuide
+
+Array
+    Array
+    ArrayCrv
+    ArrayCrvOnSrf
+    ArrayHole
+    ArrayHolePolar
+    ArrayLinear
+    ArrayPolar
+    ArraySrf
+
+Blend
+    Blend
+    BlendCrv
+    BlendEdge
+    BlendSrf
+
+
+Deform
+    Curves
+        ApplyCrv
+
+    FlowAlongSrf
+    Flow
+
+Curve Ops
+    CloseCrv
+    ContinueCurve
+    ContinueInterpCrv
+    CreateUVCrv
+    Crv2View
+    CrvDeviation
+    CrvEnd
+    CrvSeam
+    CrvStart
+
+    Fair
+    MeanCurve
+
+    SubCrv
+    DeleteSubCrv
+
+    FixedLengthCrvEdit
+
+    Arc
+    ArcBlend
+
+    InterpCrv
+    InterpcrvOnSrf
+
+    Curve
+    CurveBoolean
+    CurveThroughPolyline
+    CurveThroughPt
+    Cylinder
+    HandleCurve
+
+
+Extrude
+    ExtrudeCrv
+    ExtrudeCrvAlongCrv
+    ExtrudeCrvTapered
+    ExtrudeCrvToPoint
+
+    ExtrudeSrf
+    ExtrudeSrfAlongCrv
+
+Extend
+    Extend
+    ExtendCrvOnSrf
+    ExtendDynamic
+    ExtendSrf
+
+Extract
+    ExtractBadSrf
+    ExtractControlPolygon
+    ExtractCustomMappingObject
+    ExtractIsoCurve
+    ExtractPt
+    ExtractSrf
+    ExtractSubCrv
+    ExtractWireframe
+
+
+Fill
+    Fill
+    Fillet
+    FilletCorners
+    FilletEdge
+    FilletSrf
+
+Fit
+    FitCrv
+    FitSrf
+
+Match
+    Match
+    MatchCrvDir
+    MatchLayer
+    MatchMapping
+    MatchProperties
+    MatchSrf
+
+Merge
+    MergeAllCoplanarFaces
+    MergeAllEdges
+    MergeCoplanarFace
+    MergeEdge
+    MergeFaces
+    MergeSrf
+
+OSnap
+
+Offset
+    Offset
+    OffsetCrvOnSrf
+    OffsetMultiple
+    OffsetNormal
+    OffsetSrf
+    OffsetSubD
+
+OnCurve
+OnPOlySurface
+OnSurface
+
+QuadRemesh
+QuadrangulateMesh
+
+Rebuild
+    Rebuild
+    RebuildCrvNonUniform
+    RebuildEdges
+    RebuildUV
+
+Split
+    Split
+    SplitEdge
+    SplitFace
+    SplitViewportHorizontal
+    SplitViewportVertical
+
+Intersect
+    Intersect
+    IntersectSelf
+    IntersectTwoSets
+    IntersectionSnap
+
+Project
+    Project
+    ProjectOSnap
+    ProjectToCPlane
+
+Insert
+    Insert
+    InsertControlPoint
+    InsertEdge
+    InsertEditPoint
+    InsertKink
+    InsertKnot
+    InsertLineIntoCrv
+    InsertPoint
+
+Surface Ops
+    FlattenSrf
+
+
+
+
+History
+    History
+    HistoryPurge
+    HistoryUpdate
+
+
+Move
+    Move
+    MoveCrv
+    MoveEdge
+    MoveExtractedIsocurve
+    MoveFace
+    MoveHole
+    MoveTargetToObjects
+    MoveUVN
+    MoveUVNOff
+    MoveUntrimmedEdge
+    MoveUntrimmedFace
+
+Copy
+    Copy
+    CopyDetailToViewport
+    CopyHole
+    CopyLayout
+    CopyToClipBoard
+    CopyToLayer
+    CopyViewportToDetail
+
+Curvature
+    Curvature
+    CurvatureAnalysis
+    CurvatureAnalysisOff
+    CurvatureGraph
+    CurvatureGraphOff
+
+Chamfer
+    Chamfer
+    ChamferEdge
+    ChamferSrf
+
+#--------------------------------------------------------------------------------------------------------------------------
+AddMissingBlockAttributeKeys
+AddNextU
+
+AddNextV
+AddPrevU
+AddPrevV
+AddToGroup
+Align
+AlignVertices
+AlongLine
+AlongParallel
+Angle
+ApplyBoxMapping
+
+
+Area
+AreaCentroid
+AreaMoments
+
+Arrowhead
+AssignBlankTexture
+AttachGHSData
+Audit
+Audit3dmFile
+AutoPull=Off
+AutoPull=On
+AutoSave
+BackgroundBitmap
+BackgroundBitmap
+Place
+BackgroundBitmap
+Remove
+BackgroundBitmap
+Visible=No
+BackgroundBitmap
+Visible=Yes
+BatchRenderNamedViews
+Bend
+Between
+Bevel
+
+Block
+BlockEdit
+BlockManager
+BlockResetScale
+Boolean2Objects
+BooleanDifference
+BooleanIntersection
+BooleanSplit
+BooleanUnion
+Boss
+Bounce
+BoundingBox
+Box
+BoxEdit
+Bridge
+BringForward
+BringtoFront
+CPlane
+CSec
+Cage
+CageEdit
+Calc
+CalcRPN
+Cancel
+Cap
+Catenary
+CenterSnap
+Centermark
+
+
+ChangeDegree
+ChangeLayer
+ChangeSpace
+ChangeToCurrentLayer
+Check
+CheckInLicense
+CheckNewObjects
+CheckOutLicense
+Circle
+Clash
+ClearUndo
+ClippingPlane
+
+CloseViewport
+ClosestPt
+Commands
+Cone
+Conic
+Connect
+ConnectSrf
+
+Contour
+Convert
+ConvertDots
+ConvertTextToBlockAttribute
+
+Crease
+CreateSolid
+
+
+
+Cut
+CutPlane
+DeleteFaces
+
+Detail
+DevLoft
+Diameter
+
+Dir
+DirectionalLight
+DisableClippingPlane
+DisableOsnap
+DisplayProperties
+Distance
+Distribute
+Divide
+DivideAlongCreases
+
+Rendering
+DollyZoom
+Domain
+Dot
+DraftAngleAnalysis
+DraftAngleAnalysisOff
+DragMode
+DragMode
+
+DragStrength
+Drape
+DrapePt
+DupAnnotationStyle
+DupBorder
+DupEdge
+DupFaceBorder
+DupLayer
+EMap
+EMapOff
+EarthAnchorPoint
+EdgeContinuity
+EdgeSrf
+EditLightByHighlight
+EditLightByLooking
+EditPtOn
+EditPythonScript
+EditScript
+Ellipse
+Ellipsoid
+EnableClippingPlane
+EndBulge
+EndBulge
+
+EndSnap
+Enter
+Environments
+EvaluatePt
+EvaluateUVPt
+EvaluateUVpt
+Explode
+ExplodeBlock
+Export
+ExportBitmaps
+ExportWithOrigin
+
+
+Pause
+DeleteInput=Yes
+
+
+Pause
+DeleteInput=Yes
+
+ExtrudeSrfTapered
+ExtrudeSrfToPoint
+ExtrudeSubD
+
+Fin
+FindText
+
+
+FlatShade
+
+Flip
+FoldFace
+From
+FromEdge
+GCon
+Grasshopper
+GrasshopperPlayer
+GrasshopperPlugInList
+GroundPlane
+Group
+Gumball
+GumballAlignment
+GumballAutoReset
+GumballRelocate
+HBar
+
+Hatch
+HatchBase
+HatchScale
+Heightfield
+Helix
+Help
+Hide
+HideInDetail
+HideLayersInDetail
+HidePt
+HideSwap
+
+Hydrostatics
+Hyperbola
+Hyperlink
+Import
+ImportAnnotationStyles
+ImportLayout
+IncrementalSave
+InfinitePlane
+
+
+Invert
+InvertPt
+IsoMetric
+Isolate
+IsolateLock
+Join
+JoinEdge
+KnotSnap
+Lasso
+Layer
+LayerBook
+LayerStateManager
+Layerbook
+Layout
+LayoutProperties
+Layouts
+Leader
+Length
+Libraries
+Lights
+LimitReferenceModel
+Line
+LineThroughPt
+LinearLight
+Lines
+LinetypeDisplay
+List
+LoadScript
+Lock
+LockSwap
+LockViewport
+Loft
+MPlane
+MacroEditor
+Maelstrom
+Make2D
+MakeHole
+MakeNonPeriodic
+MakePeriodic
+MakeSubDFriendly
+MakeUniform
+MakeUniformUV
+MarkFoci
+
+MidPoint
+Mirror
+MirrorHole
+ModelBasePoint
+
+MultiPipe
+NamedCPlane
+NamedPosition
+NamedSelections
+NamedView
+NearSnap
+NetworkSrf
+New
+NewFloatingViewport
+NewFloatingViewport
+NewViewport
+NextU
+
+NextV
+NoEcho
+NoSnap
+Notes
+Notifications
+
+OneLayerOff
+OneLayerOn
+OneView
+Open
+OpenURL
+Options
+Options
+View
+Rotate
+CircleIncrement
+Pause
+Enter
+Enter
+Enter
+OptionsExport
+OptionsImport
+OptionsPage
+OptionsPage
+AdvancedSettings
+Orient
+Orient3Pt
+OrientCameraToSrf
+OrientCrvToEdge
+OrientOnSrf
+OrientOncrv
+Pause
+Ortho
+OrthoAngle
+Osnap
+PackSubDFaces
+PackTextures
+PackageManager
+Pan
+Parabola
+Parabola3Pt
+Paraboloid
+Paste
+Patch
+PatchSingleFace
+Perpendicular
+PerpendicularFrom
+PersistentOnCurve
+PersistentOnPolysurface
+PersistentOnSurface
+PerspectiveAngle
+PerspectiveMatch
+Picture
+Pipe
+PlaceHole
+Plan
+PlanarDifference
+PlanarIntersection
+PlanarSrf
+PlanarUnion
+Plane
+PlaneThroughPt
+PlayAnimation
+Point
+PointCloud
+PointCloudSection
+PointDeviation
+PointGrid
+PointLight
+PointSnap
+Points
+PointsFromUV
+PointsOff
+PointsOn
+Polygon
+PolygonCount
+PolygonType=Ngon
+PolygonType=Quad
+PolygonType=Tri
+Polyline
+PrevU
+PrevV
+Print
+PrintDisplay
+
+Properties
+PropertiesPage
+PtOffSelected
+Pull
+Purge
+Pyramid
+
+QuadrantSnap
+RPCAbout
+RPCAvail
+RPCAvailBrowser
+RPCHelp
+RPCMassEdit
+RPCSite
+Radiate
+RadiateFind
+Radius
+RailRevolve
+ReadCommandFile
+ReadViewportsFromFile
+
+RecordAnimation
+Rectangle
+RectangularLight
+Redo
+RedoMultiple
+RedoView
+RefitTrim
+Reflect
+RefreshAllTextures
+ReleaseFromCage
+RemapCPlane
+RemoveAllNakedMicroEdges
+RemoveControlPoint
+RemoveCrease
+RemoveFromGroup
+RemoveGuide
+RemoveKnot
+RemoveMappingChannel
+RemoveMultiKnot
+RemovePerFaceColors
+RemoveSymmetry
+Render
+RenderMergeIdenticalMaterials
+RenderPreview
+RenderedViewport
+Rendering
+RepairSubD
+Repeat
+ReplaceBlock
+ReplaceEdge
+Rescue3dmFile
+RevCloud
+Revert
+Revolve
+RevolvedHole
+RhinoMail
+Rib
+Ribbon
+RibbonOffset
+Rotate
+Rotate3D
+RotateCamera
+RotateHole
+RotateView
+RoundHole
+RpcOpenProp
+Run
+RunPythonScript
+RunScript
+Save
+SaveAs
+SaveAsTemplate
+SaveRenderWindowAs
+SaveSmall
+Scale
+Scale1D
+Scale2D
+ScaleByPlane
+ScaleNU
+ScaleTextHeight
+Section
+
+SendBackward
+SendToback
+SetCurrentAnnotationStyle
+SetDimensionLayer
+SetDisplayMode
+SetFlythroughAnimation
+
+SetGroupName
+SetLayerToObject
+SetLineType
+SetObjectDisplayMode
+SetOneDaySunAnimation
+SetPathAnimation
+
+SetPerFaceColorByFacePack
+SetPt
+SetRedrawOff
+SetRedrawOn
+SetSeasonalSunAnimation
+SetSpotlightToView
+SetSurfaceTangent
+SetTurnTableAnimation
+SetView
+SetViewSpeed
+SetViewToSpotlight
+SetWorkingFolder
+Shade
+Shade
+View=All
+Enter
+ShadeSelected
+Shear
+Shell
+ShortPath
+Show
+ShowDir
+ShowDirOff
+ShowEdges
+ShowEdgesOff
+ShowEnds
+ShowEndsOff
+ShowInDetail
+ShowLayersInDetail
+ShowOsnap
+ShowPt
+ShowSelected
+ShowSelectedInDetail
+ShrinkTrimmedSrf
+ShrinkTrimmedSrfToEdge
+Silhouette
+SimplifyCrv
+Sketch
+Slab
+Slide
+Smash
+Smooth
+SnapShots
+SnapSize
+SnapToLocked
+SnapToMeshObject
+SoftEditCrv
+SoftEditSrf
+SoftMove
+SoftTransform
+SolidPtOn
+Sphere
+Spiral
+
+Splop
+Spotlight
+SrfControlPtGrid
+SrfPt
+SrfPtGrid
+SrfSeam
+Stitch
+Stretch
+
+
+Subdivide
+Sun
+Sweep1
+Sweep2
+Symmetry
+SynchronizeRenderColors
+SynchronizeViews
+SystemInfo
+Tan
+TangentFrom
+Taper
+Text
+TextObject
+Textures
+ThicknessAnalysis
+ThicknessAnalysisOff
+TiltView
+ToNURBS
+ToNurbs
+ToSubD
+ToggleFloatingViewport
+Toolbar
+Torus
+TriangulateNonPlanarQuads
+Trim
+TruncatedCone
+TruncatedPyramid
+Tube
+TurnTable
+TweenCurves
+TweenSurfaces
+Twist
+UVEditor
+Undo
+UndoMultiple
+UndoSelected
+UndoView
+Ungroup
+Unisolate
+UnisolateLock
+UnjoinEdge
+Unlock
+UnlockSelected
+UnpackTextures
+UnrollSrf
+Untrim
+UntrimHoles
+Unweld
+UnweldEdge
+Unwrap
+VPoint
+VariableBlendSrf
+VariableChamferSrf
+VariableFilletSrf
+VariableOffsetSrf
+Vertex
+ViewCaptureToClipboard
+ViewCaptureToFile
+ViewFirstFrame
+
+
+ViewFrameNumber
+ViewLastFrame
+ViewNextFrame
+ViewPreviousFrame
+ViewportProperties
+ViewportProperties
+Lens
+ViewportProperties
+ViewportTabs
+Volume
+VolumeCentroid
+VolumeMoments
+WalkAbout
+WebBrowser
+Weight
+Weld
+WeldEdge
+WeldVertices
+What
+WireCut
+Worksession
+Zebra
+ZebraOff
+Zoom
+Zoom1To1Calibrate
+ZoomLens
+ZoomNaked
+ZoomNonManifold

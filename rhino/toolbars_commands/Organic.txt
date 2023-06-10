@@ -1,0 +1,39 @@
+'_Lasso
+! _Hide
+! _Show
+'_SetDisplayMode _Viewport=_Active _Mode=_Shaded
+'_SetDisplayMode _Viewport=_Active _Mode=_Wireframe
+! _Move _Pause  _SetRedrawOff 0,0,0 .1,0,0  _SetRedrawOn
+! _Move _Pause  _SetRedrawOff W0,0 W.1,0  _SetRedrawOn
+! _Move _Pause  _SetRedrawOff 0,0,0 0,.1,0  _SetRedrawOn
+! _Move _Pause  _SetRedrawOff W0,0,0 W0,1,0  _SetRedrawOn
+! _Move _Pause  _SetRedrawOff 0,0,0 0,0,.1  _SetRedrawOn
+! _Move _Pause  _SetRedrawOff W0,0,0 W0,0,.1  _SetRedrawOn
+! _Move _Pause  _SetRedrawOff 0,0,0 -.1,0,0  _SetRedrawOn
+! _Move _Pause  _SetRedrawOff W0,0 W-.1,0  _SetRedrawOn
+! _Move _Pause  _SetRedrawOff 0,0,0 0,-.1,0  _SetRedrawOn
+! _Move _Pause  _SetRedrawOff W0,0,0 W0,-.1,0  _SetRedrawOn
+! _Move _Pause  _SetRedrawOff 0,0,0 0,0,-.1  _SetRedrawOn
+! _Move _Pause  _SetRedrawOff W0,0,0 W0,0,-.1  _SetRedrawOn
+! _Scale1D _Pause  _SetRedrawOff  0,0,0 1,0,0 1.02,0,0  _SetRedrawOn
+! _Scale1D _Pause  _SetRedrawOff W0,0,0 W1,0,0 W1.02,0,0  _SetRedrawOn
+! _Scale1D _Pause  _SetRedrawOff 0,0,0 0,1,0 0,1.02,0  _SetRedrawOn
+! _Scale1D _Pause  _SetRedrawOff W0,0,0 W0,1,0 W0,1.02,0  _SetRedrawOn
+! _Scale1D _Pause  _SetRedrawOff 0,0,0 0,0,1 0,0,1.02  _SetRedrawOn
+! _Scale1D _Pause  _SetRedrawOff W0,0,0 W0,0,1 W0,0,1.02  _SetRedrawOn
+! _Scale1D _Pause _SetRedrawOff  0,0,0 1.02,0,0 1,0,0  _SetRedrawOn
+! _Scale1D _Pause  _SetRedrawOff W0,0,0 W1.02,0,0 W1,0,0  _SetRedrawOn
+! _Scale1D _Pause  _SetRedrawOff  0,0,0 0,1.02,0 0,1,0  _SetRedrawOn
+! _Scale1D _Pause  _SetRedrawOff W0,0,0 W0,1.02,0 W0,1,0  _SetRedrawOn
+! _Scale1D _Pause  _SetRedrawOff 0,0,0 0,0,1.02 0,0,1  _SetRedrawOn
+! _Scale1D _Pause  _SetRedrawOff W0,0,0 W0,0,1.02 W0,0,1  _SetRedrawOn
+! _PointsOn
+! _PointsOff
+! _InsertKnot
+! _InsertEditPoint
+! _RemoveKnot
+! _DragMode
+! _DragStrength
+! _Gumball _Toggle
+! _NoEcho _-Options _Nudge _Direction=_UVN _EnterEnd
+! _NoEcho _-Options _Nudge _Direction=_CPlane _Enter _Enter _Enter 

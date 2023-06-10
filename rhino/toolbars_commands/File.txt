@@ -1,0 +1,21 @@
+! _New
+! _Open
+! _Import
+! _Insert
+! _ExportWithOrigin
+! _-Worksession _Attach _Browse _Enter
+! _Worksession
+! _Save
+! _Export
+! _SaveAs
+! _SaveAsTemplate
+! _IncrementalSave
+! _AutoSave
+! _SaveSmall
+! -_Save _GeometryOnly=Yes _SavePluginData=No _SaveSmall=Yes _Browse
+! _Revert
+! _ExportBitmaps
+! _Print
+! _Notes 
+! _SetWorkingFolder
+! _DocumentProperties

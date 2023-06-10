@@ -1,0 +1,38 @@
+! _Move
+! _Move _Pause _Vertical
+! _Move _Pause _Normal
+! _SoftEditCrv
+! _Copy
+! _Copy _Pause _InPlace
+! _Rotate
+! _Rotate3D
+! _Scale
+! _Scale2D
+! _Mirror
+! _Mirror _Pause _3point
+! _Orient
+! _Orient3Pt
+! _BoxEdit
+! _OrientOnSrf
+! _OrientOncrv _Pause _Pause _Pause _Perpendicular 
+! _OrientCrvToEdge
+! _RemapCPlane
+! _Array
+! _ArrayPolar
+! _ProjectToCPlane
+! _SetPt
+! _Align
+! _Twist
+! _Bend
+! _Taper
+! _Flow
+! _Shear
+! _Smooth
+! _FlowAlongSrf
+! _CageEdit
+! _Cage
+! _Slide
+! _SoftTransform
+! _SoftTransform _Enable _Enter
+! _Move _Pause  _SetRedrawOff 0,0,0 .1,0,0  _SetRedrawOn
+! _Move _Pause  _SetRedrawOff W0,0 W.1,0  _SetRedrawOn

@@ -1,0 +1,7 @@
+! _ExtrudeCrv _Pause _Solid=_No
+! _ExtrudeCrvAlongCrv _Pause  _Solid=_No _SubCurve=_No
+! _ExtrudeCrvAlongCrv _Pause _Solid=_No _SubCurve=_Yes
+! _ExtrudeCrvToPoint _Pause _Solid=_No
+! _Ribbon
+! _Fin
+! _ExtrudeCrvTapered _Pause _Solid=_Yes

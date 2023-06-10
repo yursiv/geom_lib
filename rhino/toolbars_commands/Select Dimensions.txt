@@ -1,0 +1,8 @@
+'_SelDimLinear
+'_SelDimCentermark
+'_SelDimRadial
+'_SelDimOrdinate
+'_SelDimAngular
+'_SelDimOverride
+'_SelDimTextOverride
+! _SelFontUse

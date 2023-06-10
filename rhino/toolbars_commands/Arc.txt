@@ -1,0 +1,10 @@
+! _Arc
+! _Arc _StartPoint
+! _Arc _StartPoint _Pause _ThroughPoint
+! _Arc _StartPoint _Pause _Pause _Direction
+! _Arc _StartPoint _Pause _Direction
+! _Arc _StartPoint _Pause _Pause _Radius
+! _Arc _Tangent
+! _Arc _Tangent _Pause _Pause _Radius
+! _SelNone _CurveThroughPt _Pause _Degree=3  _CurveType=_Interpolated _Closed=_No _Pause _enter _SelLast _Convert _Output=_Arcs _Deleteinput=_Yes _enter _SelLast _Explode
+! _Convert _Pause _Output=_Arcs

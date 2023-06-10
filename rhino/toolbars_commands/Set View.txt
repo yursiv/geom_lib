@@ -1,0 +1,46 @@
+_Pan
+'_RotateView
+'_RotateCamera
+'_Zoom _Dynamic
+'_Zoom _Extents
+'_Zoom _All _Extents
+'_Zoom
+'_Zoom _Selected
+'_Zoom _All _Selected
+'_UndoView
+'_RedoView
+_DollyZoom
+'_ZoomLens
+-_Zoom _1To1
+_Zoom1To1Calibrate
+'_SetView _World _Top
+'_SetView _World _Bottom
+'_SetView _World _Front
+'_SetView _World _Right
+'_SetView _World _Left
+'_SetView _World _Back
+'_SetView _World _Perspective
+! _NamedView
+_-NamedView _TabVisibility _TabVisible=_Toggle _Enter _Enter
+! _-NamedView Save _Pause _Enter
+! _-NamedView _Restore _Pause _Enter
+! _ReadViewportsFromFile
+! _-ViewportProperties _Projection _Toggle _enter
+! _PerspectiveAngle
+! _-ViewportProperties _Projection _TwoPointPerspective _Enter
+! _PerspectiveAngle
+! _-ViewportProperties _CameraTarget _Enter _Pause _Enter
+! _-ViewportProperties _CameraTarget _Pause _Pause !
+_MoveTargetToObjects
+'_Plan
+! _PerspectiveMatch
+'_SetView _CPlane _Bottom
+'_SetView _CPlane _Top
+'_SetView _CPlane _Front
+'_SetView _CPlane _Back
+'_SetView _CPlane _Right
+'_SetView _CPlane _Left
+! _TurnTable
+! -_TurnTable _Speed=25 _Revolutions=1 _Enter
+! _WalkAbout
+! -_Options _View _Rotate _CircleIncrement _Pause _Enter _Enter _Enter

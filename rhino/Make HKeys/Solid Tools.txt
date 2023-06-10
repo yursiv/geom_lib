@@ -1,0 +1,41 @@
+! _BooleanUnion
+! _BooleanDifference
+! _BooleanIntersection
+! _BooleanSplit
+! _Boolean2Objects
+! _CreateSolid
+! _Shell
+! _Cap
+! _ExtractSrf
+! _MergeCoplanarFace
+! _MergeAllCoplanarFaces
+! _UnjoinEdge
+! _FilletEdge _Edit
+! _FilletEdge
+! _BlendEdge
+! _ChamferEdge
+! _WireCut
+! _MoveFace
+! _MoveUntrimmedFace
+! _MoveFace _Pause _ToBoundary
+! _ExtrudeSrf _Pause _DeleteInput=_Yes 
+! _ExtrudeSrfAlongCrv _Pause _DeleteInput=_Yes 
+! _ExtrudeSrf _Pause _ToBoundary=_Yes
+! _MoveEdge
+! _MoveUntrimmedEdge
+! _SplitFace
+! _FoldFace
+! _RoundHole
+! _MakeHole
+! _PlaceHole
+! _RevolvedHole
+! _MoveHole _Copy=_No
+! _CopyHole
+! _RotateHole
+! _ArrayHolePolar
+! _ArrayHole
+! _UntrimHoles _All=_No
+! _UntrimHoles _All=_Yes
+! _DeleteFaces
+!_SolidPtOn
+! _PointsOff

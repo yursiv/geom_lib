@@ -1,0 +1,15 @@
+! _RoundHole
+! _PlaceHole
+! _WireCut
+! _MoveFace
+! _MoveUntrimmedFace
+! _MoveFace _Pause _ToBoundary
+! _ExtrudeSrf _Pause _DeleteInput=_Yes 
+! _ExtrudeSrfAlongCrv _Pause _DeleteInput=_Yes 
+! _ExtrudeSrf _Pause _ToBoundary=_Yes
+! _MoveEdge
+! _MoveUntrimmedEdge
+! _SplitFace
+! _FoldFace
+! _MergeCoplanarFace
+! _MergeAllCoplanarFaces

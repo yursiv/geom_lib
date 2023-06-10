@@ -1,0 +1,8 @@
+! _-Hide _Pause "A" _Enter
+! _-Show "A"
+! _-Hide _Pause "B" _Enter
+! _-Show "B"
+! _-Hide _Pause "C" _Enter
+! _-Show "C"
+! _-Hide _Pause _Pause _Enter
+! _-Show _Pause

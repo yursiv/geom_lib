@@ -1,0 +1,59 @@
+! _3DFace _Output=_SubD
+! _SubDPlane
+! _SubDCone
+! _SubDTruncatedCone
+! _SubDCylinder
+! _SubDSphere
+! _SubDEllipsoid
+! _SubDTorus
+! _SubDBox
+! _Revolve _Pause _Pause _Pause _Output=_SubD
+! _SubDSweep1
+! _SubDSweep2
+! _SubDLoft
+! _MultiPipe
+! _RemoveCrease
+! _Crease
+! _Bevel
+! _InsertEdge _Type=_Loop
+! _InsertEdge _Type=_Ring
+! _InsertPoint
+! _3dFace _Output=_SubD _Append
+! _MergeCoplanarFace
+! _MergeAllCoplanarFaces
+! _Inset
+! _Stitch
+! _Bridge
+! _Subdivide
+! _Slide
+! _PackSubDFaces
+! _SetPerFaceColorByFacePack
+! _MergeFaces
+! _DeleteFaces
+! _Reflect
+! _RemoveSymmetry
+! _Radiate
+! _RadiateFind
+! _Fill
+! _ExtrudeSubD
+! _OffsetSubD
+! _QuadRemesh
+! _RepairSubD
+! _ToNurbs
+! _ToSubD
+_SubDDisplayToggle
+'_SelSubD
+_SelEdgeLoop
+_SelEdgeRing
+_SelFaceLoop
+_SelBrush
+! _NamedSelections
+_SelectionFilterEdges
+_SelectionFilterFaces
+_SelectionFilterNone
+_SelectionFilterVertices
+_SelectionFilterNone
+_SelectionFilterNone
+'_SubDFaceEdgeVertexToggle
+! _MakeSubDFriendly
+! _SubDUnfriend

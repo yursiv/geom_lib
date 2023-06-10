@@ -1,0 +1,8 @@
+! _Properties
+! _PropertiesPage _Pause _Material
+! _RemovePerFaceColors
+! _PropertiesPage _Pause _Light
+! _ViewportProperties
+! _DocumentProperties
+! _DocumentPropertiesPage  _AnnotationStyles
+! _MatchProperties

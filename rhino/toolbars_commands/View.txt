@@ -1,0 +1,25 @@
+_Pan
+'_RotateView
+'_RotateCamera
+! _TiltView
+'_Zoom _Dynamic
+'_Zoom _Factor _Pause _Enter
+'_Zoom
+'_Zoom _Target
+'_Zoom _Extents
+'_Zoom _All _Extents
+'_Zoom _Selected
+'_Zoom _All _Selected
+_DollyZoom
+'_ZoomLens
+-_Zoom _1To1
+_Zoom1To1Calibrate
+'_UndoView
+'_RedoView
+! _TurnTable
+! -_TurnTable _Speed=25 _Revolutions=1 _Enter
+! _SetRedrawOff
+! _SetRedrawOn
+! -_Options _View _Rotate _CircleIncrement _Pause _Enter _Enter _Enter
+'-_Options _View _LinkedViewports _Enter _Enter 
+! _OneView

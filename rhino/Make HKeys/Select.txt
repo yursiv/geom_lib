@@ -1,0 +1,49 @@
+'_SelAll
+'_SelNone
+'_SelectionFilter
+_SelectionFilterNone
+'_Invert
+'_InvertPt
+! _NamedSelections
+'_SelLast
+'_SelPrev
+'_SelName
+'_SelID
+! _SelDup
+! _SelDupAll
+'_SelColor
+'_SelLayer
+'_SelLayerNumber
+'_SelPt
+! _SelPtCloud
+'_SelBlockInstance
+'_SelBlockInstanceNamed
+'_SelLight
+_SelHatch
+'_SelDim
+'_SelText
+_SelAnnotationStyle
+'_SelGroup
+'_SelDot
+'_SelPolySrf
+_SelClippingPlane
+'_SelSrf
+'_SelMesh
+'_SelSubD
+'_SelCrv
+'_Lasso
+'_SelChain 
+'_SelObjectsWithHistory
+_SelVolumeSphere
+_SelBox
+_SelCircular
+_SelBoundary
+_SelBrush
+_SelSmall
+'_SelFence
+'_SelVolumeObject
+'_SelControls
+_SelKey
+_SelValue
+_SelKeyValue
+_SelNonManifold

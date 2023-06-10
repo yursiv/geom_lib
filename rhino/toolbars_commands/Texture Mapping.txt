@@ -1,0 +1,13 @@
+! _MappingWidget
+! _MappingWidgetOff
+_ApplyPlanarMapping
+_ApplyBoxMapping
+_ApplySphericalMapping
+_ApplyCylindricalMapping
+_ApplySurfaceMapping
+_RemoveMappingChannel
+! _Unwrap
+! _UVEditor
+! _ApplyCustomMapping
+! _ExtractCustomMappingObject
+! _MatchMapping

@@ -1,0 +1,27 @@
+'_CPlane
+'_CPlane _Elevation
+'_CPlane _Object
+'_CPlane _Surface
+'_CPlane _Curve
+'_CPlane _Rotate
+'_CPlane _3Point _Pause _Vertical _Pause _Enter _Enter
+'_CPlane _3Point 
+'_CPlane _3Point _Pause _Pause _Enter
+'_CPlane _3Point _Pause _Z _Pause
+_CPlane _Undo
+_CPlane _Redo
+'-_NamedCPlane _Select _Pause _Enter
+_-NamedCPlane _Visible _Visible _Toggle _Enter _Enter
+! _-NamedCPlane _Save _Pause _Enter
+! _-NamedCPlane _Restore _Pause _Enter
+! _-NamedCPlane _Import _Browse
+! _-Options _ModelingAids _CPlanes=_Universal _Enter _Enter 
+! _-Options _ModelingAids _Cplanes=_Standard _Enter _Enter 
+'_CPlane _View
+'_CPlane _World _Top
+'_CPlane _World _Bottom
+'_CPlane _World _Front
+'_CPlane _World _Back
+'_CPlane _World _Right
+'_CPlane _World _Left
+'_MPlane

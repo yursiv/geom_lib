@@ -1,0 +1,34 @@
+_Cancel
+! _PointsOff _CurvatureGraphOff _EmapOff _ZebraOff _ShowDirOff _ShowEndsOff _ShowEdgesOff _CurvatureAnalysisOff _ThicknessAnalysisOff _SelNone
+! _Move
+! _NamedView
+! _-NamedView Save _Pause _Enter
+! _-NamedView _Restore _Pause _Enter
+'_SetView _World _Perspective
+'_SetView _World _Top
+'_SetView _World _Bottom
+'_SetView _World _Left
+'_SetView _World _Right
+'_SetView _World _Front
+'_SetView _World _Back
+! _-ViewportProperties _Projection _Toggle _enter
+! _PerspectiveAngle
+! _-ViewportProperties _Projection _TwoPointPerspective _Enter
+! _PerspectiveAngle
+'_SetView _CPlane _Top
+'_SetView _CPlane _Bottom
+'_SetView _CPlane _Front
+'_SetView _CPlane _Back
+'_SetView _CPlane _Right
+'_SetView _CPlane _Left
+! _PerspectiveMatch
+_DollyZoom
+'_ZoomLens
+'_Zoom
+'_Zoom _Selected
+'_Zoom _All _Selected
+! _-ViewportProperties _CameraTarget _Enter _Pause _Enter
+! _-ViewportProperties _CameraTarget _Pause _Pause !
+_MoveTargetToObjects
+'_UndoView
+'_RedoView

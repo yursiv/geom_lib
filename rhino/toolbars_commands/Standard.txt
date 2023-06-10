@@ -1,0 +1,53 @@
+! _New
+! _Open
+! _Import
+! _Save
+! _Export
+! _Print
+! _DocumentProperties
+! _Options
+! _Cut
+! _CopyToClipBoard
+! _Paste
+! _SelNone _Paste _ChangeToCurrentLayer
+_Undo
+! _Redo
+_Pan
+'_RotateView
+'_RotateCamera
+'_Zoom _Dynamic
+'_Zoom _Factor _Pause _Enter
+'_Zoom
+'_Zoom _Target
+'_Zoom _Extents
+'_Zoom _All _Extents
+'_Zoom _Selected
+'_Zoom _All _Selected
+'_UndoView
+'_RedoView
+'_4View
+'_4View ZEA
+'_SetView _World _Right
+'_CPlane
+_ShowOsnap _Show
+'_SelAll
+! _Hide
+! _Show
+! _Lock
+! _Unlock
+! _-Layer _Visible _Toggle _EnterEnd
+! _-Layer _Visible=_No _Enter
+! _Properties
+! -_Properties _Visible _No _Enter
+! _Shade
+! _-Shade _View=_All _Enter
+'_SetDisplayMode _Viewport=_Active _Mode=_Shaded
+'_SetDisplayMode _Viewport=_Active _Mode=_Wireframe
+! _Render
+! _-Rendering _ShowPanel _Toggle _Enter
+! _Spotlight
+! _Options
+! _Dim _Continue=_No
+! _Dim _Continue=_Yes
+! _Grasshopper
+_Help
